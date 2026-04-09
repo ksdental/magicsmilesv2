@@ -3,11 +3,11 @@ import type { GatsbyConfig } from 'gatsby';
 const config: GatsbyConfig = {
   trailingSlash: 'always',
   siteMetadata: {
-    title: 'Magic Smiles Dental | Implant Dentistry | Linden, NJ',
+    title: 'Magic Smile Dental | Implant Dentistry | Linden, NJ',
     author: 'moderndocmedia.com',
     siteUrl: `https://www.lindennjdentist.com`,
     description:
-      'Welcome to Magic Smiles Dental, home of the premier dentists in Linden, NJ. Offering comprehensive dental care for the entire family. Contact us today!',
+      'Welcome to Magic Smile Dental, home of the premier dentists in Linden, NJ. Offering comprehensive dental care for the entire family. Contact us today!',
     keywords: 'Magic Smiles Dental, Dentist Linden, Linden NJ Dentist, lindennjdentist',
   },
   graphqlTypegen: true,
