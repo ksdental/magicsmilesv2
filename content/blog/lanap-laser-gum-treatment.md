@@ -4,6 +4,7 @@ slug: "lanap-laser-gum-treatment"
 category: "Periodontics"
 excerpt: "Learn how LANAP laser gum treatment works to treat gum disease with a minimally invasive approach — from diagnosis to recovery at Magic Smile Dental in Linden, NJ."
 featuredImage: ../images/lanap-gum-treatment.jpg
+date: "2025-11-22"
 ---
 
 If your gums bleed every time you brush, it is easy to assume you just need a "better cleaning" and move on. For many people, understanding what LANAP is and how it treats gum disease becomes important once routine cleanings stop fixing the problem and deeper periodontal pockets start forming.

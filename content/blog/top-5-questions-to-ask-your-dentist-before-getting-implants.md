@@ -4,6 +4,7 @@ slug: "top-5-questions-to-ask-your-dentist-before-getting-implants"
 category: "Dental Implants"
 excerpt: "Discover the top 5 essential questions to ask your dentist before getting dental implants. Ensure a successful procedure and confident smile!"
 featuredImage: "../images/implants-questions.jpg"
+date: "2026-02-02"
 ---
 
   ## Top 5 Questions to Ask Your Dentist Before Getting Implants

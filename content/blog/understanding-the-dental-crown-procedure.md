@@ -4,6 +4,7 @@ slug: "understanding-the-dental-crown-procedure"
 category: "Restorative Dentistry"
 excerpt: "Feel uneasy about getting a crown? Learn what to expect during a dental crown procedure in Linden, NJ, from consultation to placement and aftercare."
 featuredImage: "../images/dental-crown.jpg"
+date: "2026-03-10"
 ---
 
 Many people feel uneasy about getting a crown because they are not sure what happens at each visit. For patients researching what to expect during a dental crown procedure in Linden, NJ, a clear step-by-step explanation can make the process feel far more manageable.
