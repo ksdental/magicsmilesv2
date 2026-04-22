@@ -90,6 +90,21 @@ const CategoryBadge = styled.span`
     margin-bottom: 20px;
 `;
 
+const HeroDate = styled.p`
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 16px 0 0;
+
+    @media (min-width: 768px) {
+        font-size: 0.875rem;
+        margin-top: 20px;
+    }
+`;
+
 const HeroTitle = styled.h1`
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -216,6 +231,7 @@ type DataProps = {
             slug: string;
             category: string;
             excerpt: string;
+            date: string;
             featuredImage: {
                 childImageSharp: {
                     gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData;
@@ -240,6 +256,15 @@ export default function BlogPost({ data }: PageProps<DataProps>) {
                     <HeroTitle>
                         <strong>{frontmatter.title}</strong>
                     </HeroTitle>
+                    {frontmatter.date && (
+                        <HeroDate data-testid="text-blog-date">
+                            {new Date(frontmatter.date).toLocaleDateString('en-US', {
+                                year: 'numeric',
+                                month: 'short',
+                                day: 'numeric',
+                            })}
+                        </HeroDate>
+                    )}
                 </HeroContent>
             </HeroSection>
             <ArticleWrapper>
@@ -270,6 +295,7 @@ export const query = graphql`
                 slug
                 category
                 excerpt
+                date
                 featuredImage {
                     childImageSharp {
                         gatsbyImageData(

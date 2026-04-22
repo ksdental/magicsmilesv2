@@ -4,6 +4,7 @@ slug: "the-science-behind-porcelain-veneers-how-they-work-to-enhance-your-smile"
 category: "Cosmetic Dentistry"
 excerpt: "Discover the science behind porcelain veneers and how they enhance your smile, providing a stunning transformation for a confident you!"
 featuredImage: "../images/veneers-science.jpg"
+date: "2026-01-14"
 ---
 
   ## The Science Behind Porcelain Veneers How They Work to Enhance Your Smile

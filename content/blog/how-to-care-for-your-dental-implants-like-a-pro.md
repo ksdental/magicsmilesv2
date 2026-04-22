@@ -4,6 +4,7 @@ slug: "how-to-care-for-your-dental-implants-like-a-pro"
 category: "Dental Implants"
 excerpt: "Discover expert tips on how to care for your dental implants like a pro. Ensure longevity and health with our essential maintenance guide!"
 featuredImage: "../images/implants-care.jpg"
+date: "2025-11-05"
 ---
 
   ## How to Care for Your Dental Implants Like a Pro

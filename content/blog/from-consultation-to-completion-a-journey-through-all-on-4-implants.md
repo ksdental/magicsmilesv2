@@ -4,6 +4,7 @@ slug: "from-consultation-to-completion-a-journey-through-all-on-4-implants"
 category: "Dental Implants"
 excerpt: "Discover the complete journey of Full Mouth All on 4 Implants in Linden, from consultation to completion. Transform your smile today!"
 featuredImage: "../images/allon4-journey.jpg"
+date: "2025-10-20"
 ---
 
   ## From Consultation to Completion A Journey Through All on 4 Implants

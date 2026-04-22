@@ -178,6 +178,19 @@ const CardTitle = styled.h3`
     }
 `;
 
+const CardDate = styled.p`
+    margin: 0 0 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: ${theme.colors.gray};
+
+    @media (min-width: 768px) {
+        font-size: 0.8125rem;
+    }
+`;
+
 const CardExcerpt = styled.p`
     margin: 0;
     font-size: 0.8125rem;
@@ -228,6 +241,7 @@ type BlogPost = {
         slug: string;
         category: string;
         excerpt: string;
+        date: string;
         featuredImage: {
             childImageSharp: {
                 gatsbyImageData: IGatsbyImageData;
@@ -293,6 +307,20 @@ export default function BlogPage({ data }: PageProps<DataProps>) {
                                     )}
                                 </CardImageWrapper>
                                 <CardBody>
+                                    {post.frontmatter.date && (
+                                        <CardDate
+                                            data-testid={`text-date-${post.frontmatter.slug}`}
+                                        >
+                                            {new Date(post.frontmatter.date).toLocaleDateString(
+                                                'en-US',
+                                                {
+                                                    year: 'numeric',
+                                                    month: 'short',
+                                                    day: 'numeric',
+                                                }
+                                            )}
+                                        </CardDate>
+                                    )}
                                     <CardTitle>{post.frontmatter.title}</CardTitle>
                                     <CardExcerpt>{post.frontmatter.excerpt}</CardExcerpt>
                                     <ReadMore>Read More</ReadMore>
@@ -320,7 +348,7 @@ export const query = graphql`
     query BlogFeedPage {
         allMarkdownRemark(
             filter: { fileAbsolutePath: { regex: "/content/blog/" } }
-            sort: { frontmatter: { title: ASC } }
+            sort: { frontmatter: { date: DESC } }
         ) {
             nodes {
                 frontmatter {
@@ -328,6 +356,7 @@ export const query = graphql`
                     slug
                     category
                     excerpt
+                    date
                     featuredImage {
                         childImageSharp {
                             gatsbyImageData(

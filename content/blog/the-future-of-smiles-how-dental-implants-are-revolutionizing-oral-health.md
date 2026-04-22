@@ -4,6 +4,7 @@ slug: "the-future-of-smiles-how-dental-implants-are-revolutionizing-oral-health"
 category: "Dental Implants"
 excerpt: "Discover how dental implants are revolutionizing oral health and transforming smiles for a brighter future. Explore the benefits today!"
 featuredImage: "../images/implants-future.jpg"
+date: "2025-12-26"
 ---
 
   ## The Future of Smiles
