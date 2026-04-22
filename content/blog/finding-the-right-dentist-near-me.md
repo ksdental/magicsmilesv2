@@ -4,7 +4,7 @@ slug: "finding-the-right-dentist-near-me"
 category: "General Dentistry"
 excerpt: "Need a nearby dental office you can trust? Learn how to find the right dentist near you for routine visits, urgent care, and long-term smile health."
 featuredImage: "../images/dentist-near-me.jpg"
-date: "2025-10-02"
+date: "2026-01-15"
 ---
 
 Need a nearby dental office you can trust for routine visits, urgent pain, and long-term smile care? Many patients start with a search for a dentist near me when they want convenient, reliable treatment close to home.
