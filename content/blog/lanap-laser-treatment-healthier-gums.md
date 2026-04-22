@@ -4,7 +4,7 @@ slug: "lanap-laser-treatment-healthier-gums"
 category: "Periodontics"
 excerpt: "Discover the benefits of LANAP laser treatment for gum health — a minimally invasive approach to treating periodontitis and preserving your natural teeth."
 featuredImage: ../images/lanap-healthier-gums.jpg
-date: "2025-12-08"
+date: "2026-02-24"
 ---
 
 If your gums bleed when you brush or your breath never feels fresh, it is easy to assume you just need a better mouthwash or a "deep cleaning." Understanding the benefits of LANAP for gum health is often the turning point for people who have tried routine cleanings but still deal with gum inflammation, periodontal pockets, or gum recession. This guide explains what LANAP is, how the LANAP protocol works, and what results and maintenance typically look like.

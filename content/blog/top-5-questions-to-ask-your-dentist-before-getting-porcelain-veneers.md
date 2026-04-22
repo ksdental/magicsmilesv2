@@ -4,7 +4,7 @@ slug: "top-5-questions-to-ask-your-dentist-before-getting-porcelain-veneers"
 category: "Cosmetic Dentistry"
 excerpt: "Discover the top 5 essential questions to ask your dentist about porcelain veneers in Linden for a confident smile transformation!"
 featuredImage: "../images/veneers-questions.jpg"
-date: "2026-02-20"
+date: "2026-04-02"
 ---
 
   ## Top 5 Questions to Ask Your Dentist Before Getting Porcelain Veneers
