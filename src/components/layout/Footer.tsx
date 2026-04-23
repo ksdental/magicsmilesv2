@@ -167,6 +167,7 @@ export const Footer = () => {
                 <CLink to="https://www.google.com/search?q=Magic+Smile+Dental+Linden%2C+NJ&sca_esv=ba03c581cf027f47&sca_upv=1&ei=JC7oZp-bF-SKwbkPy63A6Qc&ved=0ahUKEwifvcrQxMeIAxVkRTABHcsWMH0Q4dUDCA8&uact=5&oq=Magic+Smile+Dental+Linden%2C+NJ&gs_lp=Egxnd3Mtd2l6LXNlcnAiHU1hZ2ljIFNtaWxlIERlbnRhbCBMaW5kZW4sIE5KMhEQLhiABBiRAhjHARiKBRivATIGEAAYCBgeMgsQABiABBiGAxiKBTIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIgEC4YgAQYkQIYxwEYigUYrwEYlwUY3AQY3gQY4ATYAQFI-ARQ7wNY7wNwAXgBkAEAmAF8oAF8qgEDMC4xuAEDyAEA-AEBmAICoAKLAcICChAAGLADGNYEGEfCAg0QABiwAxjWBBhHGMkDwgIOEAAYgAQYsAMYkgMYigWYAwCIBgGQBgS6BgYIARABGBSSBwMxLjGgB-wG&sclient=gws-wiz-serp#lrd=0x89c3b30231c43b21:0x5ea8101c1f4c4f62,1,,,,">
                     Leave us a review on google
                 </CLink>
+                <CLink to="/accessibility/">Accessibility Statement</CLink>
                 <span>© All Rights Reserved</span>
             </Copyright>
         </Section>
