@@ -41,8 +41,8 @@ export default function AccessibilityPage() {
                     We believe that everyone &mdash; regardless of ability, age, language, or
                     technology &mdash; should be able to access the information and services
                     provided on{' '}
-                    <a href="https://www.magicsmiledental.com/" rel="noopener noreferrer">
-                        www.magicsmiledental.com
+                    <a href="https://www.lindennjdentist.com/" rel="noopener noreferrer">
+                        www.lindennjdentist.com
                     </a>{' '}
                     with ease, dignity, and independence.
                 </p>
@@ -203,31 +203,6 @@ export default function AccessibilityPage() {
 
             <SingleArticle noBg>
                 <h2>
-                    Assessment <strong>Approach</strong>
-                </h2>
-                <p>
-                    Magic Smile Dental assesses the accessibility of its website using the following
-                    methods:
-                </p>
-                <ul>
-                    <li>Self-evaluation by our internal team</li>
-                    <li>
-                        Automated accessibility testing tools to identify common technical issues
-                    </li>
-                    <li>
-                        Manual testing with keyboard-only navigation and screen readers
-                    </li>
-                    <li>
-                        Periodic reviews against the WCAG 2.1 Level AA success criteria
-                    </li>
-                    <li>
-                        Feedback from patients, visitors, and accessibility professionals
-                    </li>
-                </ul>
-            </SingleArticle>
-
-            <SingleArticle lightBg>
-                <h2>
                     Feedback and <strong>Contact Information</strong>
                 </h2>
                 <p>
@@ -259,40 +234,6 @@ export default function AccessibilityPage() {
                     We try to respond to accessibility feedback within{' '}
                     <strong>5 business days</strong>, and to propose a solution within 10 business
                     days when feasible.
-                </p>
-            </SingleArticle>
-
-            <SingleArticle noBg>
-                <h2>
-                    Reasonable <strong>Accommodations</strong>
-                </h2>
-                <p>
-                    Magic Smile Dental is committed to providing reasonable accommodations to
-                    individuals with disabilities so they can access our dental services. This
-                    includes, but is not limited to:
-                </p>
-                <ul>
-                    <li>
-                        Assistance completing forms over the phone or in person
-                    </li>
-                    <li>
-                        Large-print versions of treatment plans, financial documents, and patient
-                        education materials upon request
-                    </li>
-                    <li>
-                        Coordination with sign language interpreters when scheduled in advance
-                    </li>
-                    <li>
-                        A wheelchair-accessible office and treatment areas
-                    </li>
-                    <li>
-                        Flexible scheduling for patients who need additional time or support during
-                        appointments
-                    </li>
-                </ul>
-                <p>
-                    If you require an accommodation, please contact our office in advance so we can
-                    prepare for your visit.
                 </p>
             </SingleArticle>
 
