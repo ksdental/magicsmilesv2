@@ -61,8 +61,7 @@ export default function AccessibilityPage() {
                     Magic Smile Dental&rsquo;s website strives to be{' '}
                     <strong>conformant with WCAG 2.1 Level AA</strong> as well as compliant with
                     Title III of the Americans with Disabilities Act (ADA). We work to meet or
-                    exceed these standards, and our team regularly evaluates the website to identify
-                    and remediate accessibility barriers.
+                    exceed these standards.
                 </p>
             </SingleArticle>
 
