@@ -26,6 +26,7 @@ export default function Page() {
                         src="../../../assets/images/general-dentistry/endodontics/hero.jpg"
                         alt="doctor pointing something on a screen"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -54,7 +55,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/general-dentistry/endodontics/1.jpg"
-                        alt="tooth anatomy graphics"
+                        alt="Tooth anatomy diagram"
                         width={860}
                         height={575}
                     />
@@ -112,7 +113,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/general-dentistry/endodontics/option-2.png"
-                        alt="tooth anatomy"
+                        alt="Tooth anatomy diagram"
                         width={415}
                         height={432}
                     />
@@ -134,7 +135,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/general-dentistry/endodontics/option-3.png"
-                        alt="tooth with root canal treatment"
+                        alt="Tooth showing root canal treatment"
                         width={415}
                         height={432}
                     />
@@ -195,9 +196,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/general-dentistry/endodontics/banner.jpg"
-                    alt="patient smiling"
-                    width={560}
-                    height={380}
+                    alt="Patient smiling"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

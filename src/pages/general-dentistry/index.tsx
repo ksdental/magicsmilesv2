@@ -29,7 +29,7 @@ export default function Page() {
                 videoImage={
                     <StaticImage
                         src="../../../assets/images/general-dentistry/thumbnail.jpg"
-                        alt="doctor shaking hands with a patient"
+                        alt="Doctor shaking hands with a patient"
                         width={380}
                         height={272}
                     />
@@ -49,7 +49,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/general-dentistry/1.png"
-                        alt="patient meeting a doctor"
+                        alt="Patient meeting a doctor"
                         width={700}
                         height={729}
                     />
@@ -197,9 +197,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/general-dentistry/banner.jpg"
-                    alt="smiling patient"
-                    width={560}
-                    height={380}
+                    alt="Smiling patient"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

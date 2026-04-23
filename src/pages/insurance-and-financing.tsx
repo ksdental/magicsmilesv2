@@ -24,8 +24,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../assets/images/insurance/hero.jpg"
-                        alt="patient sitting in a dental office"
+                        alt="Patient sitting in the dental office"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -37,7 +38,7 @@ export default function Page() {
                     >
                         <StaticImage
                             src="../../assets/images/insurance/thumbnail.jpg"
-                            alt="doctor shaking hands with a patient"
+                            alt="Doctor shaking hands with a patient"
                             width={860}
                             height={575}
                         />
@@ -116,9 +117,8 @@ export default function Page() {
                     image={
                         <StaticImage
                             src="../../assets/images/insurance/1.jpg"
-                            alt="proceed finance"
-                            width={630}
-                            height={535}
+                            alt="Proceed Finance logo"
+                            layout="fullWidth"
                         />
                     }
                 >
@@ -142,9 +142,8 @@ export default function Page() {
                     image={
                         <StaticImage
                             src="../../assets/images/insurance/2.jpg"
-                            alt="care credit"
-                            width={630}
-                            height={535}
+                            alt="CareCredit logo"
+                            layout="fullWidth"
                         />
                     }
                 >
@@ -171,9 +170,8 @@ export default function Page() {
                     image={
                         <StaticImage
                             src="../../assets/images/insurance/3.jpg"
-                            alt="cherry"
-                            width={630}
-                            height={535}
+                            alt="Cherry financing logo"
+                            layout="fullWidth"
                             objectPosition="center"
                         />
                     }
@@ -213,9 +211,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../assets/images/insurance/banner.jpg"
-                    alt="patient standing in a dental office"
-                    width={560}
-                    height={380}
+                    alt="Patient standing in the dental office"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

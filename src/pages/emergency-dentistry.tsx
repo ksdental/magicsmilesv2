@@ -25,8 +25,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../assets/images/emergency-dentistry/hero.jpg"
-                        alt="man with a toothache"
+                        alt="Man with a toothache"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -55,7 +56,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../assets/images/emergency-dentistry/1.png"
-                        alt="emergency word in a graphics"
+                        alt="Emergency dentistry graphic"
                         width={700}
                         height={729}
                     />
@@ -171,9 +172,8 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../assets/images/emergency-dentistry/2.jpg"
-                        alt="patient getting cbct scan"
-                        width={649}
-                        height={675}
+                        alt="Patient getting a CBCT scan"
+                        layout="fullWidth"
                     />
                     <BgArticleBox>
                         <h2>
@@ -206,9 +206,8 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../assets/images/emergency-dentistry/3.jpg"
-                        alt="person tapping on a smartphone"
-                        width={649}
-                        height={675}
+                        alt="Person tapping on a smartphone"
+                        layout="fullWidth"
                     />
                     <BgArticleBox>
                         <h2>
@@ -235,9 +234,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../assets/images/emergency-dentistry/banner.jpg"
-                    alt="doctor shaking hand with a patient"
-                    width={560}
-                    height={380}
+                    alt="Doctor shaking hands with a patient"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

@@ -22,8 +22,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../assets/images/sedation-dentistry/hero.jpg"
-                        alt="patient shaking hands with doctor in a dental office"
+                        alt="Patient shaking hands with a doctor in the dental office"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -53,9 +54,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../assets/images/sedation-dentistry/1.jpg"
-                            alt="doctor treating a patient"
-                            width={649}
-                            height={675}
+                            alt="Doctor treating a patient"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -78,9 +78,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../assets/images/sedation-dentistry/2.jpg"
-                            alt="sedated patient sitting in a dental office"
-                            width={649}
-                            height={675}
+                            alt="Sedated patient sitting in the dental office"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -110,7 +109,7 @@ export default function Page() {
             <SingleArticle firstImg noBg titleNextLine>
                 <StaticImage
                     src="../../assets/images/sedation-dentistry/3.jpg"
-                    alt="woman sitting on a sofa"
+                    alt="Woman relaxing on a sofa"
                     width={1060}
                     height={597}
                 />
@@ -144,9 +143,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../assets/images/sedation-dentistry/banner.jpg"
-                    alt="patient shaking hands with a doctor in a dental office"
-                    width={560}
-                    height={380}
+                    alt="Patient shaking hands with a doctor in the dental office"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

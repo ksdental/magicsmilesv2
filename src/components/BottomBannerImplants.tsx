@@ -13,7 +13,7 @@ export const BottomBannerImplants = () => {
         >
             <StaticImage
                 src="../../assets/images/home/bottom.png"
-                alt="all four implants"
+                alt="All-on-4 dental implants illustration"
                 width={405}
                 height={422}
             />

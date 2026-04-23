@@ -23,8 +23,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/veneers/hero-veneers.jpg"
-                        alt="patient smiling"
+                        alt="Patient smiling"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -59,7 +60,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/veneers/1.png"
-                        alt="patient meeting with doctor"
+                        alt="Patient meeting with a doctor"
                         width={700}
                         height={729}
                     />
@@ -84,9 +85,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/veneers/2.jpg"
-                            alt="happy patient"
-                            width={649}
-                            height={675}
+                            alt="Happy patient"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -121,9 +121,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/veneers/3.jpg"
-                            alt="doctor holding mirror infront of patient"
-                            width={649}
-                            height={675}
+                            alt="Doctor holding a mirror in front of a patient"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -150,7 +149,7 @@ export default function Page() {
             <SingleArticle firstImg noBg titleNextLine>
                 <StaticImage
                     src="../../../assets/images/cosmetic-dentistry/veneers/4.jpg"
-                    alt="patient in a dental clinic"
+                    alt="Patient in the dental clinic"
                     width={1060}
                     height={597}
                 />

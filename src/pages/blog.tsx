@@ -271,7 +271,7 @@ export default function BlogPage({ data }: PageProps<DataProps>) {
                 image={
                     <StaticImage
                         src="../../assets/images/cosmetic-dentistry/hero.jpg"
-                        alt="magic smile dental blog"
+                        alt="Magic Smile Dental blog"
                         layout="fullWidth"
                         quality={90}
                         loading="eager"

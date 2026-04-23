@@ -25,7 +25,7 @@ export default function Page() {
                 videoImage={
                     <StaticImage
                         src="../../../assets/images/periodontics/lanap-laser-periodontics/video-thumbnail.jpg"
-                        alt="doctor treating a patient"
+                        alt="Doctor treating a patient"
                         width={380}
                         height={272}
                     />
@@ -33,8 +33,9 @@ export default function Page() {
                 backgroundImage={
                     <StaticImage
                         src="../../../assets/images/periodontics/lanap-laser-periodontics/hero.jpg"
-                        alt="teeth"
+                        alt="Close-up of healthy teeth"
                         layout="fullWidth"
+                        loading="eager"
                         className="backgroundImage"
                     />
                 }
@@ -66,9 +67,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/periodontics/lanap-laser-periodontics/article-1.jpg"
-                            alt="lanap laser periodontics"
-                            width={649}
-                            height={675}
+                            alt="LANAP laser periodontics treatment"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -103,9 +103,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/periodontics/lanap-laser-periodontics/article-2.jpg"
-                            alt="closeup teeth look"
-                            width={649}
-                            height={675}
+                            alt="Close-up view of teeth and gums"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -139,7 +138,7 @@ export default function Page() {
             <SingleArticle firstImg noBg>
                 <StaticImage
                     src="../../../assets/images/periodontics/lanap-laser-periodontics/single-article.jpg"
-                    alt="doctor treating a patient"
+                    alt="Doctor treating a patient"
                     width={1060}
                     height={597}
                 />
@@ -178,7 +177,7 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/periodontics/lanap-laser-periodontics/banner.jpg"
-                    alt="woman smiling standing in magic smile dental office"
+                    alt="Woman smiling inside the Magic Smile Dental office"
                     width={405}
                     height={271}
                 />

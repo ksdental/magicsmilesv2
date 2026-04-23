@@ -379,7 +379,7 @@ export default function SpecialOffersPage() {
                 image={
                     <StaticImage
                         src="../../assets/images/cosmetic-dentistry/veneers/hero-veneers.jpg"
-                        alt="special dental offers at magic smile dental"
+                        alt="Special dental offers at Magic Smile Dental"
                         layout="fullWidth"
                         quality={90}
                         loading="eager"

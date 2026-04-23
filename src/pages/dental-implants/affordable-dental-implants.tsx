@@ -23,8 +23,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/dental-implants/cost/hero.jpg"
-                        alt="magic smiles dental office"
+                        alt="Magic Smile Dental office"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -37,7 +38,7 @@ export default function Page() {
                     >
                         <StaticImage
                             src="../../../assets/images/dental-implants/cost/video-thumbnail.jpg"
-                            alt="patient in dental office"
+                            alt="Patient in the dental office"
                             width={860}
                             height={576}
                         />
@@ -66,9 +67,8 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/dental-implants/cost/article-1.png"
-                        alt="dental implants"
-                        width={649}
-                        height={675}
+                        alt="Dental implants illustration"
+                        layout="fullWidth"
                     />
                     <BgArticleBox>
                         <h2>
@@ -107,7 +107,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/dental-implants/cost/article-2.jpg"
-                        alt="doctor standing with a patient"
+                        alt="Doctor standing with a patient"
                         width={860}
                         height={575}
                     />
@@ -142,7 +142,7 @@ export default function Page() {
             <SingleArticle firstImg noBg>
                 <StaticImage
                     src="../../../assets/images/dental-implants/cost/article-3.jpg"
-                    alt="patient meeting a staff member in a dental office"
+                    alt="Patient meeting a staff member in the dental office"
                     width={1060}
                     height={597}
                 />

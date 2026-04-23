@@ -107,7 +107,7 @@ export default function Page() {
                 videoImage={
                     <StaticImage
                         src="../../../assets/images/dental-implants/video-thumbnail.jpg"
-                        alt="smiling patient"
+                        alt="Smiling patient"
                         width={380}
                         height={272}
                     />
@@ -143,9 +143,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/dental-implants/article-1.jpg"
-                            alt="dental implant"
-                            width={649}
-                            height={675}
+                            alt="Dental implant illustration"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -167,9 +166,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/dental-implants/article-2.jpg"
-                            alt="happy patient"
-                            width={649}
-                            height={675}
+                            alt="Happy patient"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -191,7 +189,7 @@ export default function Page() {
             <SingleArticle firstImg noBg>
                 <StaticImage
                     src="../../../assets/images/dental-implants/single-article.jpg"
-                    alt="dental implants"
+                    alt="Dental implants illustration"
                     width={1060}
                     height={597}
                 />
@@ -221,9 +219,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/dental-implants/option-1.jpg"
-                            alt="dental implant"
-                            width={500}
-                            height={334}
+                            alt="Dental implant illustration"
+                            width={800}
                         />
                         <CircledDigit>1</CircledDigit>
                         <h3>Single Implants</h3>
@@ -239,8 +236,7 @@ export default function Page() {
                         <StaticImage
                             src="../../../assets/images/dental-implants/option-2.jpg"
                             alt="dental bridges"
-                            width={500}
-                            height={334}
+                            width={800}
                         />
                         <CircledDigit>2</CircledDigit>
                         <h3>Dental bridges</h3>
@@ -260,8 +256,7 @@ export default function Page() {
                         <StaticImage
                             src="../../../assets/images/dental-implants/option-3.jpg"
                             alt="implant supported dentures"
-                            width={500}
-                            height={334}
+                            width={800}
                         />
                         <CircledDigit>3</CircledDigit>
                         <h3>implant supported dentures</h3>
@@ -278,8 +273,7 @@ export default function Page() {
                         <StaticImage
                             src="../../../assets/images/dental-implants/option-4.jpg"
                             alt="all on x implants"
-                            width={500}
-                            height={334}
+                            width={800}
                         />
                         <CircledDigit>4</CircledDigit>
                         <h3>All-on-X</h3>

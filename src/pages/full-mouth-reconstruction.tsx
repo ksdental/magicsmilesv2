@@ -62,7 +62,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../assets/images/reconstruction/1.png"
-                        alt="doctor meeting a patient"
+                        alt="Doctor meeting a patient"
                         width={700}
                         height={729}
                     />
@@ -174,9 +174,8 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../assets/images/reconstruction/2.jpg"
-                        alt="doctor showing information on the screen"
-                        width={649}
-                        height={675}
+                        alt="Doctor showing information on a screen"
+                        layout="fullWidth"
                     />
                     <BgArticleBox>
                         <h2>
@@ -206,9 +205,8 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../assets/images/reconstruction/3.jpg"
-                        alt="a man smiling"
-                        width={649}
-                        height={675}
+                        alt="A man smiling"
+                        layout="fullWidth"
                     />
                     <BgArticleBox>
                         <h2>

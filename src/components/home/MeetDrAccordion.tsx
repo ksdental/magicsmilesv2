@@ -185,7 +185,8 @@ const Items = ({ setValue }: { setValue?: (value: string) => void }) => (
             <CloseBtn setValue={setValue} />
             <StaticImage
                 src="../../../assets/images/doctors/anatoly.jpg"
-                alt="Doctor Anatoly Bensianoff"
+                alt="Dr. Anatoly Bensianoff"
+                layout="fullWidth"
             />
             <div>
                 <p>
@@ -233,7 +234,8 @@ const Items = ({ setValue }: { setValue?: (value: string) => void }) => (
             <CloseBtn setValue={setValue} />
             <StaticImage
                 src="../../../assets/images/doctors/sviatlana.jpg"
-                alt="Doctor Sviatlana Stsiatsevich,"
+                alt="Dr. Sviatlana Stsiatsevich"
+                layout="fullWidth"
             />
             <div>
                 <p>
@@ -282,7 +284,8 @@ const Items = ({ setValue }: { setValue?: (value: string) => void }) => (
             <CloseBtn setValue={setValue} />
             <StaticImage
                 src="../../../assets/images/doctors/burgos.jpg"
-                alt="Doctor Alexandra Burgos,"
+                alt="Dr. Alexandra Burgos"
+                layout="fullWidth"
             />
             <div>
                 <p>
@@ -322,7 +325,8 @@ const Items = ({ setValue }: { setValue?: (value: string) => void }) => (
             <CloseBtn setValue={setValue} />
             <StaticImage
                 src="../../../assets/images/doctors/placeholder.jpg"
-                alt="Doctor Yakov Yakubov"
+                alt="Dr. Yakov Yakubov"
+                layout="fullWidth"
             />
             <div>
                 <p>
@@ -365,7 +369,8 @@ const Items = ({ setValue }: { setValue?: (value: string) => void }) => (
             <CloseBtn setValue={setValue} />
             <StaticImage
                 src="../../../assets/images/doctors/valeriia.jpg"
-                alt="Doctor Valeria Ivanova"
+                alt="Dr. Valeria Ivanova"
+                layout="fullWidth"
             />
             <div>
                 <p>
@@ -398,7 +403,7 @@ const Items = ({ setValue }: { setValue?: (value: string) => void }) => (
 
 const DesktopView = ({ value, setValue }: { value: string; setValue: (value: string) => void }) => (
     <DView value={value}>
-        <StaticImage src="../../../assets/images/doctors/bg.jpg" alt="magic smile" height={900} />
+        <StaticImage src="../../../assets/images/doctors/bg.jpg" alt="Magic Smile Dental office interior" layout="fullWidth" />
         <Flex>
             <Btn onClick={() => setValue('1')}>
                 <h3>

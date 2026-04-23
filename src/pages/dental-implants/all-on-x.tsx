@@ -32,7 +32,7 @@ export default function Page() {
                 videoImage={
                     <StaticImage
                         src="../../../assets/images/dental-implants/all-on-x/video-thumbnail.jpg"
-                        alt="smiling patient"
+                        alt="Smiling patient"
                         width={380}
                         height={272}
                     />
@@ -44,7 +44,7 @@ export default function Page() {
             <SingleArticle firstImg noBg>
                 <StaticImage
                     src="../../../assets/images/dental-implants/all-on-x/article-1.jpg"
-                    alt="dental implants"
+                    alt="Dental implants illustration"
                     width={1060}
                     height={597}
                 />
@@ -72,9 +72,8 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/dental-implants/all-on-x/article-2.jpg"
-                        alt="doctor meeting a patient"
-                        width={649}
-                        height={675}
+                        alt="Doctor meeting a patient"
+                        layout="fullWidth"
                     />
                     <BgArticleBox>
                         <h2>
@@ -137,8 +136,7 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/pdf.png"
-                        width={620}
-                        height={437}
+                        layout="fullWidth"
                         alt="pdf"
                     />
                 }

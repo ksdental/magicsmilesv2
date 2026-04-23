@@ -249,19 +249,19 @@ export default function BgArticle({
             ) : darkBg ? (
                 <StaticImage
                     src="../../assets/images/dark-bg.jpg"
-                    alt="background"
+                    alt=""
                     layout="fullWidth"
                 />
             ) : whiteBg ? (
                 <StaticImage
                     src="../../assets/images/white_pattern.jpg"
-                    alt="white pattern"
+                    alt=""
                     layout="fullWidth"
                 />
             ) : (
                 <StaticImage
                     src="../../assets/images/light-pattern.jpg"
-                    alt="background"
+                    alt=""
                     layout="fullWidth"
                 />
             )}

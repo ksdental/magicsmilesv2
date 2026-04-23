@@ -112,7 +112,7 @@ export const MobNav = () => {
 
                     <StaticImage
                         src="../../../assets/images/layout/logo-white.png"
-                        alt="magic smile dental"
+                        alt="Magic Smile Dental — home"
                         width={360}
                         height={110}
                     />

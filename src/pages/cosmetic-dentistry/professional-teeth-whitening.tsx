@@ -20,8 +20,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/whitening/hero.jpg"
-                        alt="person getting teeth whitening treatment"
-                        layout="fullWidth"
+                        alt="Person getting a teeth whitening treatment"
+                        width={800}
+                        loading="eager"
                     />
                 }
             />
@@ -54,7 +55,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/whitening//1.jpg"
-                        alt="person smiling with beautiful teeth"
+                        alt="Person smiling with bright, healthy teeth"
                         width={860}
                         height={575}
                     />
@@ -91,7 +92,7 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/cosmetic-dentistry/whitening/2.jpg"
-                    alt="doctor holding mirror infront of a patient in a dental clinic"
+                    alt="Doctor holding a mirror in front of a patient in the dental clinic"
                     width={1060}
                     height={597}
                 />
@@ -117,7 +118,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/whitening/3.png"
-                        alt="patient with a doctor"
+                        alt="Patient with a doctor"
                         width={700}
                         height={729}
                     />
@@ -145,9 +146,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/cosmetic-dentistry/whitening/4.jpg"
-                    alt="patient in a dental clinic"
-                    width={560}
-                    height={380}
+                    alt="Patient in the dental clinic"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

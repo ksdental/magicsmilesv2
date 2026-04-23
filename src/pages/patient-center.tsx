@@ -18,8 +18,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../assets/images/patient-center/hero.jpg"
-                        alt="patient standing with doctor in magic smiles dental office"
+                        alt="Patient standing with a doctor inside the Magic Smile Dental office"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -27,7 +28,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../assets/images/patient-center/1.png"
-                        alt="doctor anatoly"
+                        alt="Dr. Anatoly Bensianoff"
                         width={700}
                         height={729}
                     />
@@ -53,9 +54,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../assets/images/patient-center/banner.jpg"
-                    alt="table in a dental office"
-                    width={560}
-                    height={380}
+                    alt="Treatment table in the dental office"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>
