@@ -171,7 +171,7 @@ export const HomeLogo = () => (
     <HomeLink to="/" aria-label="home">
         <StaticImage
             src="../../../assets/images/layout/logo.png"
-            alt="magic smile dental"
+            alt="Magic Smile Dental — home"
             width={250}
             height={76}
             loading="eager"

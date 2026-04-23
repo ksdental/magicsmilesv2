@@ -102,13 +102,13 @@ const implantTabs = [
             src="../../assets/images/cosmetic-dentistry/before-and-after/implant-1-before.jpg"
             width={406}
             height={271}
-            alt="before dental implants"
+            alt="Patient smile before dental implants"
         />
         <StaticImage
             src="../../assets/images/cosmetic-dentistry/before-and-after/implant-1-after.jpg"
             width={406}
             height={271}
-            alt="after dental implants"
+            alt="Patient smile after dental implants"
         />
     </BeforeAfterPhoto>,
     <BeforeAfterPhoto key={1}>
@@ -116,13 +116,13 @@ const implantTabs = [
             src="../../assets/images/cosmetic-dentistry/before-and-after/implant-2-before.jpg"
             width={406}
             height={271}
-            alt="before dental implants"
+            alt="Patient smile before dental implants"
         />
         <StaticImage
             src="../../assets/images/cosmetic-dentistry/before-and-after/implant-2-after.jpg"
             width={406}
             height={271}
-            alt="after dental implants"
+            alt="Patient smile after dental implants"
         />
     </BeforeAfterPhoto>,
 ];
@@ -133,13 +133,13 @@ const veneerTabs = [
             src="../../assets/images/cosmetic-dentistry/before-and-after/veneer-1-before.jpg"
             width={406}
             height={271}
-            alt="before porcelain veneers"
+            alt="Patient smile before porcelain veneers"
         />
         <StaticImage
             src="../../assets/images/cosmetic-dentistry/before-and-after/veneer-1-after.jpg"
             width={406}
             height={271}
-            alt="after porcelain veneers"
+            alt="Patient smile after porcelain veneers"
         />
     </BeforeAfterPhoto>,
 ];
@@ -150,13 +150,13 @@ const whiteningTabs = [
             src="../../assets/images/cosmetic-dentistry/before-and-after/whitening-1-before.jpg"
             width={406}
             height={271}
-            alt="before teeth whitening"
+            alt="Patient smile before teeth whitening"
         />
         <StaticImage
             src="../../assets/images/cosmetic-dentistry/before-and-after/whitening-1-after.jpg"
             width={406}
             height={271}
-            alt="after teeth whitening"
+            alt="Patient smile after teeth whitening"
         />
     </BeforeAfterPhoto>,
 ];
@@ -197,13 +197,13 @@ export const BeforeAfterSection = () => {
                     src="../../assets/images/cosmetic-dentistry/before-and-after/implant-1-before.jpg"
                     width={406}
                     height={271}
-                    alt="before dental implants"
+                    alt="Patient smile before dental implants"
                 />
                 <StaticImage
                     src="../../assets/images/cosmetic-dentistry/before-and-after/implant-1-after.jpg"
                     width={406}
                     height={271}
-                    alt="after dental implants"
+                    alt="Patient smile after dental implants"
                 />
             </BeforeAfterPhoto> */}
         </Section>

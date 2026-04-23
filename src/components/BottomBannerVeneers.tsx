@@ -106,14 +106,14 @@ export const BottomBannerVeneers = () => {
             <div>
                 <StaticImage
                     src="../../assets/images/veneers-info.png"
-                    alt="everything about veneers"
+                    alt="Learn more about porcelain veneers"
                     width={590}
                     height={848}
                     css={imageStyles}
                 />
                 <StaticImage
                     src="../../assets/images/brush-underline.png"
-                    alt="underline"
+                    alt=""
                     width={590}
                     height={10}
                 />
@@ -128,7 +128,7 @@ export const BottomBannerVeneers = () => {
                 </h3>
                 <StaticImage
                     src="../../assets/images/brush-underline.png"
-                    alt="underline"
+                    alt=""
                     width={512}
                     height={8}
                 />

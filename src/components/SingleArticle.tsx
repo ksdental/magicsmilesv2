@@ -42,6 +42,17 @@ const Box = styled.div<{ firstImg?: boolean; dark?: boolean }>`
         color: ${({ theme, dark }) => (dark ? theme.colors.white : theme.colors.darkerBlue)};
     }
 
+    > ul, > ol {
+        color: ${({ theme, dark }) => (dark ? theme.colors.white : theme.colors.gray)};
+        text-align: left;
+        margin: 0 0 1em;
+        padding-inline-start: 24px;
+
+        li {
+            margin-bottom: 12px;
+        }
+    }
+
     > p {
         color: ${({ theme, dark }) => (dark ? theme.colors.white : theme.colors.gray)};
 
@@ -133,19 +144,19 @@ export const SingleArticle = ({
             ) : darkBg ? (
                 <StaticImage
                     src="../../assets/images/dark-bg.jpg"
-                    alt="background"
+                    alt=""
                     layout="fullWidth"
                 />
             ) : lightBg ? (
                 <StaticImage
                     src="../../assets/images/light-pattern.jpg"
-                    alt="background"
+                    alt=""
                     layout="fullWidth"
                 />
             ) : (
                 <StaticImage
                     src="../../assets/images/white_pattern.jpg"
-                    alt="white pattern"
+                    alt=""
                     layout="fullWidth"
                 />
             )}

@@ -179,7 +179,7 @@ export default function Page() {
                         src="../../../assets/images/about-us/meet-the-doctors/dr.png"
                         width={700}
                         height={728}
-                        alt="Dr Yakov"
+                        alt="Dr. Yakov Yakubov"
                     />
                     <BgArticleBox>
                         <h2>
@@ -217,7 +217,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/about-us/meet-the-doctors/valeriia.png"
-                        alt="Dr Valeriia Ivanova"
+                        alt="Dr. Valeriia Ivanova"
                         width={700}
                         height={728}
                     />
@@ -253,9 +253,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/about-us/meet-the-doctors/banner.jpg"
-                    alt="happy couple sitting and smiling"
-                    width={560}
-                    height={380}
+                    alt="Happy couple sitting and smiling"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

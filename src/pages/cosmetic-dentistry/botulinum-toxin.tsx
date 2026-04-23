@@ -23,7 +23,7 @@ export default function BotolinumToxinPage() {
                 image={
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/hero.jpg"
-                        alt="botulinum toxin treatments at magic smile dental"
+                        alt="Botulinum toxin treatments at Magic Smile Dental"
                         layout="fullWidth"
                         quality={90}
                         loading="eager"

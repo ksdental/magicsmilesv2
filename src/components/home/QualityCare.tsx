@@ -19,7 +19,7 @@ export const QualityCare = () => {
                     <div>
                         <StaticImage
                             src="../../../assets/images/home/quality/1.png"
-                            alt="dr anatoly shaking hands with a patient in dental office"
+                            alt="Dr. Anatoly shaking hands with a patient in the dental office"
                             width={415}
                             height={432}
                         />
@@ -35,7 +35,7 @@ export const QualityCare = () => {
                     <div>
                         <StaticImage
                             src="../../../assets/images/home/quality/2.png"
-                            alt="patient in dental office"
+                            alt="Patient in the dental office"
                             width={415}
                             height={432}
                         />
@@ -51,7 +51,7 @@ export const QualityCare = () => {
             ) : (
                 <StaticImage
                     src="../../../assets/images/home/quality/3.jpg"
-                    alt="premium care and comprehensive services"
+                    alt="Premium care and comprehensive dental services"
                     width={1300}
                     height={650}
                 />

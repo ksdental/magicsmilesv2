@@ -14,9 +14,8 @@ export const Treatments = () => {
                 image={
                     <StaticImage
                         src="../../../assets/images/home/treatments/sedation.jpg"
-                        alt="doctor treating patient in dental office"
-                        width={630}
-                        height={650}
+                        alt="Doctor treating a patient in the dental office"
+                        layout="fullWidth"
                     />
                 }
             >
@@ -41,9 +40,8 @@ export const Treatments = () => {
                 image={
                     <StaticImage
                         src="../../../assets/images/home/treatments/implant.jpg"
-                        alt="dental implant"
-                        width={630}
-                        height={650}
+                        alt="Dental implant illustration"
+                        layout="fullWidth"
                     />
                 }
             >
@@ -67,9 +65,8 @@ export const Treatments = () => {
                 image={
                     <StaticImage
                         src="../../../assets/images/home/treatments/implants.jpg"
-                        alt="all on 4 dental implants"
-                        width={630}
-                        height={650}
+                        alt="All-on-4 dental implants illustration"
+                        layout="fullWidth"
                     />
                 }
             >
@@ -97,9 +94,8 @@ export const Treatments = () => {
                 image={
                     <StaticImage
                         src="../../../assets/images/home/treatments/root-canal.jpg"
-                        alt="person with toothache"
-                        width={630}
-                        height={650}
+                        alt="Person with a toothache"
+                        layout="fullWidth"
                     />
                 }
             >
@@ -121,9 +117,8 @@ export const Treatments = () => {
                 image={
                     <StaticImage
                         src="../../../assets/images/home/treatments/crown.jpg"
-                        alt="dental crowns & bridges"
-                        width={630}
-                        height={650}
+                        alt="Dental crowns and bridges"
+                        layout="fullWidth"
                     />
                 }
             >
@@ -152,9 +147,8 @@ export const Treatments = () => {
                 image={
                     <StaticImage
                         src="../../../assets/images/home/treatments/surgery.jpg"
-                        alt="doctor treating a patient"
-                        width={630}
-                        height={650}
+                        alt="Doctor treating a patient"
+                        layout="fullWidth"
                     />
                 }
             >

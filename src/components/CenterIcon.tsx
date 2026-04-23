@@ -35,7 +35,7 @@ export const CenterIcon = () => {
             <div>
                 <StaticImage
                     src="../../assets/images/icon.png"
-                    alt="magic smile dental icon"
+                    alt="Magic Smile Dental icon"
                     width={74}
                     height={74}
                 />

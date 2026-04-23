@@ -26,7 +26,7 @@ export default function Page() {
                 videoImage={
                     <StaticImage
                         src="../../assets/images/oral-dentistry/thumbnail.jpg"
-                        alt="three doctors having a discussion"
+                        alt="Three doctors having a discussion"
                         width={380}
                         height={272}
                     />
@@ -34,8 +34,9 @@ export default function Page() {
                 backgroundImage={
                     <StaticImage
                         src="../../assets/images/oral-dentistry/hero.jpg"
-                        alt="teeth anatomy displayed on a screen"
+                        alt="Teeth anatomy displayed on a screen"
                         layout="fullWidth"
+                        loading="eager"
                         className="backgroundImage"
                     />
                 }
@@ -45,7 +46,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../assets/images/oral-dentistry/1.png"
-                        alt="doctor holding a mirror in front of a patient"
+                        alt="Doctor holding a mirror in front of a patient"
                         width={700}
                         height={729}
                     />
@@ -166,7 +167,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../assets/images/oral-dentistry/2.jpg"
-                        alt="doctor treating a patient"
+                        alt="Doctor treating a patient"
                         width={860}
                         height={430}
                     />
@@ -201,9 +202,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../assets/images/oral-dentistry/banner.jpg"
-                    alt="smiling patient"
-                    width={560}
-                    height={380}
+                    alt="Smiling patient"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

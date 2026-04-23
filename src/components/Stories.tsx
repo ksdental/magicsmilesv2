@@ -125,7 +125,7 @@ export const Stories = () => {
         <Section>
             <StaticImage
                 src="../../assets/images/carousel-bg.jpg"
-                alt="background"
+                alt=""
                 layout="fullWidth"
             />
             <div>

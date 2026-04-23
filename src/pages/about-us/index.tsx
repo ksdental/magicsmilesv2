@@ -23,8 +23,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/about-us/hero.jpg"
-                        alt="magic smiles dental staff"
+                        alt="Magic Smile Dental staff"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -62,9 +63,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/about-us/1.jpg"
-                            alt="magic smile dental written on a wall"
-                            width={649}
-                            height={675}
+                            alt="Magic Smile Dental sign on the office wall"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -89,9 +89,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/about-us/2.jpg"
-                            alt="three magic smiles dental doctors"
-                            width={649}
-                            height={675}
+                            alt="Three Magic Smile Dental doctors"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -198,9 +197,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/about-us/banner.jpg"
-                    alt="three doctors discussing in a dental office"
-                    width={560}
-                    height={380}
+                    alt="Three doctors discussing in the dental office"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

@@ -22,8 +22,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/crowns-bridges/hero.jpg"
-                        alt="patient with a doctor"
+                        alt="Patient with a doctor"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -53,9 +54,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/crowns-bridges/1.jpg"
-                            alt="doctor showing information on the screen"
-                            width={649}
-                            height={675}
+                            alt="Doctor showing information on a screen"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -93,9 +93,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/crowns-bridges/2.jpg"
-                            alt="dental bridge"
-                            width={649}
-                            height={675}
+                            alt="Dental bridge illustration"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -127,7 +126,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/crowns-bridges/3.png"
-                        alt="patient meeting a doctor"
+                        alt="Patient meeting a doctor"
                         width={700}
                         height={729}
                     />
@@ -149,7 +148,7 @@ export default function Page() {
             <SingleArticle firstImg noBg titleNextLine>
                 <StaticImage
                     src="../../../assets/images/cosmetic-dentistry/crowns-bridges/4.jpg"
-                    alt="patient in a dental clinic"
+                    alt="Patient in the dental clinic"
                     width={1060}
                     height={597}
                 />
@@ -178,9 +177,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/cosmetic-dentistry/crowns-bridges/5.jpg"
-                    alt="patient in a dental clinic"
-                    width={560}
-                    height={380}
+                    alt="Patient in the dental clinic"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

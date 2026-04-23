@@ -128,7 +128,7 @@ export default function HomeHero() {
                 <HeroVideoImageBox>
                     <StaticImage
                         src="../../assets/images/home/hero/video-pic.jpg"
-                        alt="magic smile office"
+                        alt="Inside the Magic Smile Dental office"
                         width={380}
                         height={272}
                         loading="eager"

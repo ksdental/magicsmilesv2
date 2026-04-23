@@ -22,8 +22,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/dental-implants/failure/hero.jpg"
-                        alt="magic smiles dental office"
+                        alt="Magic Smile Dental office"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -60,8 +61,7 @@ export default function Page() {
                         <StaticImage
                             src="../../../assets/images/dental-implants/failure/article-2.jpg"
                             alt="lapip laser treatment"
-                            width={649}
-                            height={675}
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -96,8 +96,7 @@ export default function Page() {
                         <StaticImage
                             src="../../../assets/images/dental-implants/failure/article-3.jpg"
                             alt="doctor diagnosing a patient with a tool"
-                            width={649}
-                            height={675}
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>

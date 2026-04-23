@@ -26,8 +26,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/hero.jpg"
-                        alt="doctor holding a mirror infront of a patient"
+                        alt="Doctor holding a mirror in front of a patient"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -60,7 +61,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/1.png"
-                        alt="happy patient"
+                        alt="Happy patient"
                         width={700}
                         height={729}
                     />
@@ -85,9 +86,8 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/2.jpg"
-                        width={620}
-                        height={437}
-                        alt="happy patient maria"
+                        width={800}
+                        alt="Happy patient, Maria"
                     />
                 }
                 btnText="upload your picture"
@@ -110,9 +110,8 @@ export default function Page() {
                     image={
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/3.jpg"
-                            alt="porcelain veneers"
-                            width={630}
-                            height={550}
+                            alt="Porcelain veneers being placed on teeth"
+                            width={800}
                         />
                     }
                 >
@@ -141,9 +140,8 @@ export default function Page() {
                     image={
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/4.jpg"
-                            alt="patient getting teeth whitening treatment"
-                            width={630}
-                            height={550}
+                            alt="Patient getting a teeth whitening treatment"
+                            width={800}
                         />
                     }
                 >
@@ -170,9 +168,8 @@ export default function Page() {
                     image={
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/5.jpg"
-                            alt="teeth"
-                            width={630}
-                            height={550}
+                            alt="Close-up of healthy teeth"
+                            width={800}
                         />
                     }
                 >
@@ -194,9 +191,8 @@ export default function Page() {
                     image={
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/6.jpg"
-                            alt="dental crown"
-                            width={630}
-                            height={550}
+                            alt="Dental crown illustration"
+                            width={800}
                         />
                     }
                 >
@@ -223,9 +219,8 @@ export default function Page() {
                     image={
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/7.jpg"
-                            alt="clear aligners"
-                            width={630}
-                            height={550}
+                            alt="Clear aligner trays"
+                            width={800}
                         />
                     }
                 >
@@ -250,9 +245,8 @@ export default function Page() {
                     image={
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/8.jpg"
-                            alt="dental implant"
-                            width={630}
-                            height={550}
+                            alt="Dental implant illustration"
+                            width={800}
                         />
                     }
                 >

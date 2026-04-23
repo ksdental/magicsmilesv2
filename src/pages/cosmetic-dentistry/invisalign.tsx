@@ -24,8 +24,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/invisalign/hero.jpg"
-                        alt="person holding invisalign aligners"
+                        alt="Person holding Invisalign clear aligners"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -53,9 +54,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/invisalign//1.jpg"
-                            alt="person wearing invisalign aligners"
-                            width={649}
-                            height={675}
+                            alt="Person wearing Invisalign clear aligners"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -88,9 +88,8 @@ export default function Page() {
                     <div>
                         <StaticImage
                             src="../../../assets/images/cosmetic-dentistry/invisalign/2.jpg"
-                            alt="invisalign with box"
-                            width={649}
-                            height={675}
+                            alt="Invisalign clear aligners with packaging"
+                            layout="fullWidth"
                         />
                         <BgArticleBox>
                             <h2>
@@ -168,7 +167,7 @@ export default function Page() {
                 <div>
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/invisalign/3.png"
-                        alt="patient with two doctors"
+                        alt="Patient with two doctors"
                         width={700}
                         height={729}
                     />
@@ -205,9 +204,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/cosmetic-dentistry/invisalign/4.jpg"
-                    alt="patient in a dental clinic"
-                    width={560}
-                    height={380}
+                    alt="Patient in the dental clinic"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

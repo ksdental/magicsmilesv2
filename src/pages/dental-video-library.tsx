@@ -24,6 +24,7 @@ export default function Page() {
                         src="../../assets/images/library/hero.jpg"
                         alt="camera lens"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -43,8 +44,7 @@ export default function Page() {
                         <StaticImage
                             src="../../assets/images/library/1.jpg"
                             alt="dr anatoly standing in a dental office"
-                            width={550}
-                            height={366}
+                            width={800}
                         />
                     </VideoBox>
 
@@ -52,8 +52,7 @@ export default function Page() {
                         <StaticImage
                             src="../../assets/images/library/2.jpg"
                             alt="dental office"
-                            width={550}
-                            height={366}
+                            width={800}
                         />
                     </VideoBox>
 
@@ -64,8 +63,7 @@ export default function Page() {
                         <StaticImage
                             src="../../assets/images/library/3.jpg"
                             alt="dental office"
-                            width={550}
-                            height={366}
+                            width={800}
                         />
                     </VideoBox>
 
@@ -76,8 +74,7 @@ export default function Page() {
                         <StaticImage
                             src="../../assets/images/library/4.jpg"
                             alt="three doctors having a discussion in a dental office"
-                            width={550}
-                            height={366}
+                            width={800}
                         />
                     </VideoBox>
 
@@ -87,9 +84,8 @@ export default function Page() {
                     >
                         <StaticImage
                             src="../../assets/images/library/5.jpg"
-                            alt="dental implants"
-                            width={550}
-                            height={366}
+                            alt="Dental implants illustration"
+                            width={800}
                         />
                     </VideoBox>
 
@@ -99,9 +95,8 @@ export default function Page() {
                     >
                         <StaticImage
                             src="../../assets/images/library/6.jpg"
-                            alt="patient sitting in a dental office"
-                            width={550}
-                            height={366}
+                            alt="Patient sitting in the dental office"
+                            width={800}
                         />
                     </VideoBox>
                 </VideoBoxGrid>
@@ -117,8 +112,7 @@ export default function Page() {
                 <StaticImage
                     src="../../assets/images/library/banner.jpg"
                     alt="patient smiling in a dental office"
-                    width={560}
-                    height={380}
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

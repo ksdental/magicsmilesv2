@@ -42,9 +42,8 @@ export default function Page() {
                     >
                         <StaticImage
                             src="../../assets/images/patient-stories/1.jpg"
-                            alt="patient standing in a dental office"
-                            width={550}
-                            height={366}
+                            alt="Patient standing in the dental office"
+                            width={800}
                         />
                     </VideoBox>
 
@@ -54,9 +53,8 @@ export default function Page() {
                     >
                         <StaticImage
                             src="../../assets/images/patient-stories/2.jpg"
-                            alt="patient standing in a dental office"
-                            width={550}
-                            height={366}
+                            alt="Patient standing in the dental office"
+                            width={800}
                         />
                     </VideoBox>
 
@@ -66,9 +64,8 @@ export default function Page() {
                     >
                         <StaticImage
                             src="../../assets/images/patient-stories/3.jpg"
-                            alt="patient standing in a dental office"
-                            width={550}
-                            height={366}
+                            alt="Patient standing in the dental office"
+                            width={800}
                         />
                     </VideoBox>
                 </VideoBoxGrid>

@@ -157,13 +157,13 @@ usage
 <BeforeAfter>
     <StaticImage
         src="../../../../assets/images/services/advanced-facial-esthetics/platelet/before.jpg"
-        alt="prp treatment"
+        alt="PRP treatment before photo"
         width={434}
         height={640}
     />
     <StaticImage
         src="../../../../assets/images/services/advanced-facial-esthetics/platelet/after.jpg"
-        alt="prf treatment"
+        alt="PRF treatment after photo"
         width={434}
         height={640}
     />

@@ -9,9 +9,8 @@ export const Technology = () => {
             <div>
                 <StaticImage
                     src="../../../assets/images/home/tech.png"
-                    alt="doctor pointing at the screen displaying teeth structure"
-                    width={617}
-                    height={643}
+                    alt="Doctor pointing at a screen displaying teeth structure"
+                    layout="fullWidth"
                 />
                 <BgArticleBox>
                     <h2>

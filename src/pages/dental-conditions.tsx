@@ -22,8 +22,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../assets/images/dental-conditions/hero.jpg"
-                        alt="doctor treating a patient in a dental office"
+                        alt="Doctor treating a patient in the dental office"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -224,9 +225,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../assets/images/dental-conditions/banner.jpg"
-                    alt="patient standing in a dental office"
-                    width={560}
-                    height={380}
+                    alt="Patient standing in the dental office"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

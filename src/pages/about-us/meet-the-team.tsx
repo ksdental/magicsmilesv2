@@ -20,8 +20,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/about-us/hero.jpg"
-                        alt="magic smiles dental staff"
+                        alt="Magic Smile Dental staff"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />
@@ -30,7 +31,7 @@ export default function Page() {
                 <div style={{ maxWidth: '295px' }}>
                     <StaticImage
                         src="../../../assets/images/about-us/meet-the-team/miguel.png"
-                        alt="miguel"
+                        alt="Miguel, Magic Smile Dental team member"
                         width={415}
                         height={432}
                     />
@@ -42,7 +43,7 @@ export default function Page() {
                 <div style={{ maxWidth: '295px' }}>
                     <StaticImage
                         src="../../../assets/images/about-us/meet-the-team/dr.png"
-                        alt="jackie"
+                        alt="Jackie, Magic Smile Dental team member"
                         width={415}
                         height={432}
                     />
@@ -61,9 +62,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/about-us/meet-the-doctors/banner.jpg"
-                    alt="happy couple sitting and smiling"
-                    width={560}
-                    height={380}
+                    alt="Happy couple sitting and smiling"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

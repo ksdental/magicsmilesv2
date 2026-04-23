@@ -18,8 +18,9 @@ export default function Page() {
                 image={
                     <StaticImage
                         src="../../../assets/images/cosmetic-dentistry/before-and-after/hero.jpg"
-                        alt="person getting teeth whitening treatment"
-                        layout="fullWidth"
+                        alt="Person getting a teeth whitening treatment"
+                        width={800}
+                        loading="eager"
                     />
                 }
             />
@@ -34,9 +35,8 @@ export default function Page() {
             >
                 <StaticImage
                     src="../../../assets/images/cosmetic-dentistry/before-and-after/banner.jpg"
-                    alt="doctor standing with a patient"
-                    width={560}
-                    height={380}
+                    alt="Doctor standing with a patient"
+                    width={800}
                 />
             </BottomBannerConsult>
         </Fragment>

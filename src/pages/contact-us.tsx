@@ -94,8 +94,9 @@ export default function Page({ location }: PageProps<object, LocationState>) {
                 image={
                     <StaticImage
                         src="../../assets/images/contact-hero.jpg"
-                        alt="magic smiles dental office"
+                        alt="Magic Smile Dental office"
                         layout="fullWidth"
+                        loading="eager"
                     />
                 }
             />

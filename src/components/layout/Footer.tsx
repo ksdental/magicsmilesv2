@@ -116,15 +116,18 @@ export const Footer = () => {
         <Section contactPage={pageTitle === 'contact-us'}>
             <StaticImage
                 src="../../../assets/images/dark-bg.jpg"
-                alt="background"
+                alt=""
                 layout="fullWidth"
+                quality={95}
             />
             <CLink to="/">
                 <StaticImage
                     src="../../../assets/images/layout/logo-white.png"
-                    alt="magic smile dental"
-                    width={340}
-                    height={104}
+                    alt="Magic Smile Dental logo"
+                    width={680}
+                    quality={100}
+                    placeholder="none"
+                    style={{ maxWidth: '340px' }}
                 />
             </CLink>
             <Flex>
