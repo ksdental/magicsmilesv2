@@ -173,12 +173,12 @@ export default function Page() {
                     />
                     <BgArticleBox>
                         <h2>
-                            We’re an <strong> Invisalign Gold Provider</strong>
+                            We’re an <strong> Invisalign Pearl Provider</strong>
                         </h2>
                         <p>
                             As part of <CLink to={getNavLink('about us')}>our mission</CLink> to
                             give all the smiles in your family the best possible care, we’re proud
-                            to be an Invisalign Gold Provider. This recognition reflects our
+                            to be an Invisalign Pearl Provider. This recognition reflects our
                             commitment to delivering exceptional orthodontic care.
                         </p>
                         <p>
