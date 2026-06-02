@@ -75,7 +75,7 @@ export default function Page() {
                                 <li>Comprehensive dentistry under one roof</li>
                                 <li>Board-specialized oral surgeon on staff</li>
                                 <li>We perform complex oral surgery cases</li>
-                                <li>We are Invisalign® gold providers</li>
+                                <li>We are Invisalign® Pearl providers</li>
                                 <li>Advanced technology</li>
                                 <li>LANAP® laser treatment specialist</li>
                                 <li>Long-term doctor-patient relationships</li>
