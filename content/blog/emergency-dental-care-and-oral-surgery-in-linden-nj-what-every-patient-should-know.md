@@ -4,7 +4,7 @@ slug: "emergency-dental-care-and-oral-surgery-in-linden-nj-what-every-patient-sh
 category: "General Dentistry"
 excerpt: "A knocked-out tooth or spreading swelling can't wait. Learn which symptoms qualify as true dental emergencies, how oral surgery resolves urgent problems, and what to expect during an emergency visit in Linden, NJ."
 featuredImage: "../images/emergency-oral-surgery.jpg"
-date: "2026-08-03"
+date: "2026-07-13"
 ---
 
 A sudden toothache at midnight or a knocked-out tooth during a weekend game can turn an ordinary day into an urgent search for help. For patients exploring emergency dental care and oral surgery in Linden, NJ, understanding what qualifies as a dental emergency and how surgical solutions restore comfort can mean the difference between saving and losing a tooth.
