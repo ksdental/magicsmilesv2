@@ -242,6 +242,7 @@ type BlogPost = {
         category: string;
         excerpt: string;
         date: string;
+        featuredImageAlt?: string;
         featuredImage: {
             childImageSharp: {
                 gatsbyImageData: IGatsbyImageData;
@@ -302,7 +303,7 @@ export default function BlogPage({ data }: PageProps<DataProps>) {
                                     {image && (
                                         <GatsbyImage
                                             image={image}
-                                            alt={post.frontmatter.title}
+                                            alt={post.frontmatter.featuredImageAlt || post.frontmatter.title}
                                         />
                                     )}
                                 </CardImageWrapper>
@@ -357,6 +358,7 @@ export const query = graphql`
                     category
                     excerpt
                     date
+                    featuredImageAlt
                     featuredImage {
                         childImageSharp {
                             gatsbyImageData(
