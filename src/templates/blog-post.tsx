@@ -232,6 +232,7 @@ type DataProps = {
             category: string;
             excerpt: string;
             date: string;
+            featuredImageAlt?: string;
             featuredImage: {
                 childImageSharp: {
                     gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData;
@@ -249,7 +250,7 @@ export default function BlogPost({ data }: PageProps<DataProps>) {
         <Fragment>
             <HeroSection>
                 {image && (
-                    <GatsbyImage image={image} alt={frontmatter.title} style={{ gridArea: '1/1' }} />
+                    <GatsbyImage image={image} alt={frontmatter.featuredImageAlt || frontmatter.title} style={{ gridArea: '1/1' }} />
                 )}
                 <HeroContent>
                     <CategoryBadge>{frontmatter.category}</CategoryBadge>
@@ -296,6 +297,7 @@ export const query = graphql`
                 category
                 excerpt
                 date
+                featuredImageAlt
                 featuredImage {
                     childImageSharp {
                         gatsbyImageData(
