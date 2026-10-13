@@ -112,7 +112,7 @@ export default function Page() {
                 <h2>
                     Third-Party <strong>Dental Financing Solutions</strong>
                 </h2>
-                <p>We use CareCredit, Sunbit, and Alpheon</p>
+                <p style={{ textAlign: 'center' }}>We use CareCredit, Sunbit, and Alpheon</p>
             </ImgArticleSection>
 
             <BottomBannerConsult
