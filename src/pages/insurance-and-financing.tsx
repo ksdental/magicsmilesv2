@@ -4,7 +4,7 @@ import { BasicHero } from '@/BasicHero';
 import BgArticle, { BgArticleBox } from '@/BgArticle';
 import { BottomBannerConsult } from '@/BottomBannerConsult';
 import { CLink } from '@/CLink';
-import { ImgArticle, ImgArticleSection } from '@/ImgArticle';
+import { ImgArticleSection } from '@/ImgArticle';
 import { getNavLink } from '@/layout/NavLinks';
 import { SingleArticle } from '@/SingleArticle';
 import { VideoBox } from '@/VideoBox';
@@ -112,93 +112,7 @@ export default function Page() {
                 <h2>
                     Third-Party <strong>Dental Financing Solutions</strong>
                 </h2>
-                <ImgArticle
-                    number="1"
-                    image={
-                        <StaticImage
-                            src="../../assets/images/insurance/1.jpg"
-                            alt="Proceed Finance logo"
-                            layout="fullWidth"
-                        />
-                    }
-                >
-                    <div>
-                        <h3>Proceed Finance</h3>
-                        <p>
-                            Proceed Finance offers options for dental and medical expenses from
-                            $2,500 to $75,000. Flexible payment options make fitting dental expenses
-                            into your monthly budget easy. A quick and easy prequalification process
-                            means you’ll be able to secure affordable dental financing and move
-                            forward with your treatment on the same day. Visit{' '}
-                            <CLink to="https://www.proceedfinance.com/">proceedfinance.com</CLink>{' '}
-                            or call <CLink to="tel:+1-844-272-7587">(844) 272-7587</CLink> for more
-                            information.
-                        </p>
-                    </div>
-                </ImgArticle>
-                <ImgArticle
-                    imgRight
-                    number="2"
-                    image={
-                        <StaticImage
-                            src="../../assets/images/insurance/2.jpg"
-                            alt="CareCredit logo"
-                            layout="fullWidth"
-                        />
-                    }
-                >
-                    <div>
-                        <h3>CareCredit</h3>
-                        <p>
-                            CareCredit dental financing covers almost any treatment, including{' '}
-                            <CLink to={getNavLink('cosmetic dentistry')}>cosmetic dentistry</CLink>{' '}
-                            and <CLink to={getNavLink('dental implants')}>dental implants</CLink>.
-                            You can get an instant credit decision without impacting your credit
-                            score with applications online or by phone.
-                        </p>
-                        <p>
-                            Interest-free short-term and affordable long-term plans make it easy to
-                            secure affordable dental financing. Visit{' '}
-                            <CLink to="https://www.carecredit.com/go/QRM669/">carecredit.com</CLink>{' '}
-                            or call <CLink to="tel:+1-800-677-0718">(800) 677-0718</CLink> for more
-                            information.
-                        </p>
-                    </div>
-                </ImgArticle>
-                <ImgArticle
-                    number="3"
-                    image={
-                        <StaticImage
-                            src="../../assets/images/insurance/3.jpg"
-                            alt="Cherry financing logo"
-                            layout="fullWidth"
-                            objectPosition="center"
-                        />
-                    }
-                >
-                    <div>
-                        <h3>Cherry</h3>
-                        <p>
-                            Cherry Payment Plans offers dental financing for expenses up to $35,000.
-                            Some of their flexible loan terms qualify for 0% APR options. Their fast
-                            application process won’t impact your credit score or include hidden
-                            fees. Visit{' '}
-                            <CLink to={getNavLink('https://www.withcherry.com/')}>
-                                withcherry.com
-                            </CLink>{' '}
-                            or{' '}
-                            <CLink to={getNavLink('tel:+1-888-839-7171')}>
-                                call (888) 839-7171
-                            </CLink>{' '}
-                            for more information.
-                        </p>
-                        <p>
-                            <strong>
-                                *0% APR and other promotional rates subject to eligibility.
-                            </strong>
-                        </p>
-                    </div>
-                </ImgArticle>
+                <p>We use CareCredit, Sunbit, and Alpheon</p>
             </ImgArticleSection>
 
             <BottomBannerConsult
