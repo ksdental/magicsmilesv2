@@ -32,7 +32,13 @@ const config: GatsbyConfig = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-image`,
-    `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        sitemap: `https://www.lindennjdentist.com/sitemap-0.xml`,
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
     `gatsby-plugin-emotion`,
 
     {
