@@ -213,7 +213,7 @@ export default function AccessibilityPage() {
                 <ul>
                     <li>
                         <strong>Phone:</strong>{' '}
-                        <a href={siteInfo.phone.link}>{siteInfo.phone.text}</a>
+                        <a href="tel:9082596075">(908) 259-6075</a>
                     </li>
                     <li>
                         <strong>Address:</strong>{' '}
