@@ -42,5 +42,5 @@ If you’re ready to explore how porcelain veneers can transform your smile, now
 
 Contact us at [(908) 743-8041](tel:9087438041), or visit our website to learn more about our porcelain veneers services at [Magic Smile Dental](/cosmetic-dentistry/porcelain-veneers/). You can also find us on Google Maps at [this link](https://maps.app.goo.gl/QiAV96coovL9x3AK9). We look forward to helping you achieve the smile you've always wanted!
 
-For any inquiries, don’t hesitate to reach out through our contact page at [here](/contact/).
+For any inquiries, don’t hesitate to [contact Magic Smile Dental](https://www.lindennjdentist.com/contact-us/).
   

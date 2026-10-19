@@ -94,8 +94,7 @@ export default function Page() {
                         />
                         <BgArticleBox>
                             <h2>
-                                Experienced Dentists, <strong>Dedicated to Your Comfort</strong>
-                                Experience
+                                Experienced Dentists, <strong>Dedicated to Your Comfort and Experience</strong>
                             </h2>
                             <p>
                                 When it comes to choosing a dentist, experience matters. Magic Smile

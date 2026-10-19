@@ -48,5 +48,5 @@ At Magic Smile Dental, comprehensive care under one roof means that patients rec
 
 ### Your Next Step Towards a Beautiful Smile
 
-If you’re considering dental implants or dentures, take the first step towards achieving your ideal smile today. Schedule a consultation with Dr. Anatoly Bensianoff at Magic Smile Dental by calling [(908) 743-8041](tel:9087438041). Explore our [Dental Implants](/dental-implants/) service for more information. For directions, check us out on [Google Maps](https://maps.app.goo.gl/QiAV96coovL9x3AK9). You can also reach out through our [contact page](/contact/).
+If you’re considering dental implants or dentures, take the first step towards achieving your ideal smile today. Schedule a consultation with Dr. Anatoly Bensianoff at Magic Smile Dental by calling [(908) 743-8041](tel:9087438041). Explore our [Dental Implants](/dental-implants/) service for more information. For directions, check us out on [Google Maps](https://maps.app.goo.gl/QiAV96coovL9x3AK9). You can also reach out through our [contact page](https://www.lindennjdentist.com/contact-us/).
   

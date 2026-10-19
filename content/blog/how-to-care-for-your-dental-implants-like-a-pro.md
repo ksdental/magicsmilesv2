@@ -53,5 +53,5 @@ When it comes to advanced implant dentistry, trust is paramount. The team at Mag
 
 ## Take Action Today for a Healthier Tomorrow
 
-If you’re ready to invest in your smile and learn more about how to care for your dental implants effectively, contact Magic Smile Dental today. Schedule your consultation with Dr. Anatoly Bensianoff by calling [(908) 743-8041](tel:9087438041). Explore our services, including [Dental Implants](/dental-implants/), and take the first step towards optimal oral health. For directions, visit us [here](https://maps.app.goo.gl/QiAV96coovL9x3AK9), or reach out through our [contact page](/contact/).
+If you’re ready to invest in your smile and learn more about how to care for your dental implants effectively, contact Magic Smile Dental today. Schedule your consultation with Dr. Anatoly Bensianoff by calling [(908) 743-8041](tel:9087438041). Explore our services, including [Dental Implants](/dental-implants/), and take the first step towards optimal oral health. For directions, visit us [here](https://maps.app.goo.gl/QiAV96coovL9x3AK9), or reach out through our [contact page](https://www.lindennjdentist.com/contact-us/).
   

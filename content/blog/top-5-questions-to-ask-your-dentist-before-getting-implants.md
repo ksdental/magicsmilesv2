@@ -35,5 +35,5 @@ In conclusion, preparing for dental implants involves more than just the procedu
 
 ## Your Next Step Towards a Beautiful Smile
 
-If you’re ready to explore the possibility of dental implants, Magic Smile Dental is here to assist you. With Dr. Anatoly Bensianoff leading the way, patients receive advanced implant dentistry combined with comprehensive care under one roof. Call us today at [(908) 743-8041](tel:9087438041) or visit our [contact page](/contact/) to schedule your consultation. You can also find us easily on [Google Maps](https://maps.app.goo.gl/QiAV96coovL9x3AK9). Let us help you achieve the smile you've always wanted!
+If you’re ready to explore the possibility of dental implants, Magic Smile Dental is here to assist you. With Dr. Anatoly Bensianoff leading the way, patients receive advanced implant dentistry combined with comprehensive care under one roof. Call us today at [(908) 743-8041](tel:9087438041) or visit our [contact page](https://www.lindennjdentist.com/contact-us/) to schedule your consultation. You can also find us easily on [Google Maps](https://maps.app.goo.gl/QiAV96coovL9x3AK9). Let us help you achieve the smile you've always wanted!
   

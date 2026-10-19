@@ -41,5 +41,5 @@ The benefits of dental implants extend beyond aesthetics; they play a crucial ro
 
 If you're considering dental implants or simply want to learn more about how they can benefit you, look no further than Magic Smile Dental. Under the expert guidance of Dr. Anatoly Bensianoff, patients can expect top-notch care tailored to their unique needs. Don't let missing teeth hold you back any longer. Take the first step towards reclaiming your smile today!
 
-Contact Magic Smile Dental at [(908) 743-8041](tel:9087438041) or visit our [contact page](/contact/) for more information. To explore our dental implant services, check out our page on [Dental Implants](/dental-implants/). You can also find us easily on [Google Maps](https://maps.app.goo.gl/QiAV96coovL9x3AK9).
+Contact Magic Smile Dental at [(908) 743-8041](tel:9087438041) or visit our [contact page](https://www.lindennjdentist.com/contact-us/) for more information. To explore our dental implant services, check out our page on [Dental Implants](/dental-implants/). You can also find us easily on [Google Maps](https://maps.app.goo.gl/QiAV96coovL9x3AK9).
   

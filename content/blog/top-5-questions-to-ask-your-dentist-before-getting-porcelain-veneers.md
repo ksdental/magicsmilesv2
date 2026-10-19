@@ -37,7 +37,7 @@ Engaging in a thoughtful dialogue with Dr. Anatoly Bensianoff about porcelain ve
 
 If you're ready to explore the possibilities of porcelain veneers, Magic Smile Dental is here to help. With our commitment to comprehensive care under one roof, advanced implant dentistry, and affordable, flexible financing, we strive to provide the best experience for our patients.
 
-Contact us today at [(908) 743-8041](tel:9087438041) or visit our website to learn more about our [Porcelain Veneers](/cosmetic-dentistry/porcelain-veneers/). You can also reach out through our [contact page](/contact/). We look forward to welcoming you to our practice!
+Contact us today at [(908) 743-8041](tel:9087438041) or visit our website to learn more about our [Porcelain Veneers](/cosmetic-dentistry/porcelain-veneers/). You can also reach out through our [contact page](https://www.lindennjdentist.com/contact-us/). We look forward to welcoming you to our practice!
 
 For directions to our office, please click [here](https://maps.app.goo.gl/QiAV96coovL9x3AK9).
   
