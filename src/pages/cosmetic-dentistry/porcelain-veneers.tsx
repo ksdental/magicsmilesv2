@@ -14,6 +14,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Porcelain Veneers in Linden, NJ"
                 text="Porcelain Veneers - Linden, NJ"
                 title={
                     <h2>

@@ -17,9 +17,7 @@ export default function Home() {
         <Fragment>
             <HomeHero />
             <SingleArticle>
-                <p className="single-article-tagline">
-                    Comprehensive & Implant Dentistry - Linden, NJ
-                </p>
+                <h1 className="single-article-tagline">Dentist in Linden, NJ</h1>
                 <h2>
                     Great Patient Care and Exceptional Treatment Outcomes,{' '}
                     <strong>All Under One Roof</strong>

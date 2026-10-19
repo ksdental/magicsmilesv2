@@ -13,6 +13,7 @@ export default function Page() {
     return (
         <Fragment>
             <VideoHero
+                heading="LANAP Laser Gum Treatment in Linden, NJ"
                 tagline="Laser Gum Disease Treatment - Linden, NJ"
                 title={
                     <h2>

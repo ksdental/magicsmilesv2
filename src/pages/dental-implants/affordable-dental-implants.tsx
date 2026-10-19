@@ -14,6 +14,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Dental Implant Costs in Linden, NJ"
                 text="Cost Of Dental Implants - Linden, NJ"
                 title={
                     <h2>

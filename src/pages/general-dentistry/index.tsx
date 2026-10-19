@@ -17,6 +17,7 @@ export default function Page() {
     return (
         <Fragment>
             <VideoHero
+                heading="General Dentistry in Linden, NJ"
                 tagline="General Dentistry - Linden, NJ"
                 title={
                     <h2>

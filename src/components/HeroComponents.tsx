@@ -13,6 +13,57 @@ import { ReactComponent as ChevronIcon } from '@a/icons/chevron.svg';
 import { ReactNode } from 'react';
 import useLocationData from '@s/hooks/useLocationData';
 
+// One title group in the DOM, repositioned with CSS at the existing breakpoints.
+// The page heading replaces the small tagline; the original large H2 is preserved.
+export const ResponsiveHeroTitle = styled.div<{ videoExist?: boolean }>`
+    grid-area: 2 / 1;
+    text-align: center;
+    padding: 60px 30px 40px;
+    background-image: url(${bg});
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: ${({ theme }) => theme.colors.white};
+    z-index: 3;
+    position: relative;
+
+    > h1 {
+        ${titleFontStyles};
+        margin: 0 0 10px;
+        letter-spacing: unset;
+        font-size: 0.75rem;
+    }
+
+    > h2 {
+        line-height: 1.2;
+        margin: 0;
+
+        > strong {
+            display: block;
+        }
+    }
+
+    @media (min-width: 568px) {
+        grid-area: 1 / 1;
+    }
+
+    @media (min-width: 768px) {
+        padding: 0 50px;
+        background: none;
+        text-align: left;
+        align-self: center;
+        justify-self: stretch;
+        margin-bottom: ${({ videoExist }) => (videoExist ? '200px' : 0)};
+
+        > h2 {
+            font-size: 2.75rem;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        padding: 0 170px 0 70px;
+    }
+`;
+
 export const HeroBigTitleBox = styled.div<{ videoExist: boolean }>`
     display: none;
 

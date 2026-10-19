@@ -9,6 +9,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Meet Our Dental Team"
                 text="Meet Our Team - Linden, NJ
 "
                 title={

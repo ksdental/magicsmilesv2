@@ -11,6 +11,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Professional Teeth Whitening in Linden, NJ"
                 text="Professional Teeth Whitening - Linden, NJ"
                 title={
                     <h2>

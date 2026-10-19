@@ -4,19 +4,21 @@ import { PlayBtn } from './buttons';
 import { VideoModal } from './VideoModal';
 import {
     HeroBigPlayBtn,
-    HeroBigTitleBox,
+    ResponsiveHeroTitle,
     HeroBottomBar,
     HeroSocialBar,
-    HeroTitleBox,
     HeroVideo,
     HeroVideoImageBox,
 } from './HeroComponents';
 
 const Section = styled.section`
     padding-top: 135px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
 
     > div#hero-grid {
         display: grid;
+        grid-area: 1 / 1;
         position: relative;
         min-height: 300px;
 
@@ -37,6 +39,12 @@ const Section = styled.section`
 
         > * {
             grid-area: 1/1;
+        }
+    }
+
+    @media (min-width: 568px) and (max-width: 767px) {
+        > div#hero-grid {
+            grid-area: 2 / 1;
         }
     }
 
@@ -86,6 +94,7 @@ const Section = styled.section`
     }
 `;
 type Props = {
+    heading: string;
     backgroundImage?: ReactNode;
     centerVideo?: string;
     centerVideoPoster?: string;
@@ -98,6 +107,7 @@ type Props = {
     videoSrc?: string;
 };
 export default function VideoHero({
+    heading,
     backgroundImage,
     centerVideo,
     centerVideoPoster,
@@ -106,7 +116,6 @@ export default function VideoHero({
     videoSrc,
     videoImage,
     title,
-    tagline,
     bottomText,
 }: Props) {
     const [open, setOpen] = useState(false);
@@ -117,7 +126,10 @@ export default function VideoHero({
     return (
         <Fragment>
             <Section>
-                {title ? <HeroTitleBox title={title} tagline={tagline} /> : ''}
+                <ResponsiveHeroTitle videoExist={!!videoID || !!videoSrc}>
+                    <h1>{heading}</h1>
+                    {title}
+                </ResponsiveHeroTitle>
 
                 <div id="hero-grid">
                     {centerVideoPoster && centerVideo ? (
@@ -140,15 +152,6 @@ export default function VideoHero({
 
                     {videoID || videoSrc ? <HeroBigPlayBtn handlePlay={handlePlay} /> : ''}
 
-                    {title || tagline ? (
-                        <HeroBigTitleBox videoExist={!!videoID || !!videoSrc}>
-                            <p>{tagline}</p>
-                            {title}
-                        </HeroBigTitleBox>
-                    ) : (
-                        ''
-                    )}
-
                     <HeroBottomBar
                         text={bottomText}
                         handlePlay={handlePlay}
@@ -167,7 +170,6 @@ export default function VideoHero({
                     <HeroSocialBar />
                 </div>
 
-                {title ? <HeroTitleBox title={title} tagline={tagline} smMobile /> : ''}
             </Section>
 
             {(videoID || videoSrc) && videoTitle ? (

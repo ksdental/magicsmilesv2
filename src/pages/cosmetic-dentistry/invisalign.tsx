@@ -15,6 +15,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Invisalign Clear Aligners in Linden, NJ"
                 text="Invisalign® Clear Aligners - Linden, NJ"
                 title={
                     <h2>

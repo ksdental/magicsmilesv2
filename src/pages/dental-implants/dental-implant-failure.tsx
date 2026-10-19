@@ -13,6 +13,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Treatment for Dental Implant Failure in Linden, NJ"
                 text="Failing Dental Implants - Linden, NJ"
                 title={
                     <h2>

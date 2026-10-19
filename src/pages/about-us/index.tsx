@@ -14,6 +14,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="About Magic Smile Dental"
                 text="About Our Practice - Linden, NJ"
                 title={
                     <h2>

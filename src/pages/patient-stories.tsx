@@ -13,6 +13,7 @@ export default function Page() {
     return (
         <Fragment>
             <VideoHero
+                heading="Patient Testimonials"
                 tagline="Patient Testimonials - Linden, NJ"
                 title={
                     <h2>

@@ -4,7 +4,7 @@ import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import useLocationData from '@s/hooks/useLocationData';
-import { ReactNode, useState } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 import { navBtnStyles, navLinkStyles, subNavBtnStyles, subNavLinkStyles } from './NavLinkStyles';
 import { NavLinksTypes } from './NavLinks';
 import { flexCenter } from './styles/classes';
@@ -23,6 +23,11 @@ const MenuList = styled(NavigationMenu.List)`
 `;
 
 const Content = styled(NavigationMenu.Content)`
+    // Keep server-rendered submenu links hidden until the native menu opens.
+    &[data-ssr-menu='true'][data-state='closed'] {
+        display: none;
+    }
+
     position: absolute;
     top: calc(1.125rem * 1.5 + 4px); //font size x line height
     left: 0;
@@ -108,6 +113,8 @@ export const DesktopNav = ({
     const { title, category, subCategory } = useLocationData();
 
     const [subValue, setSubValue] = useState('');
+    const [hasHydrated, setHasHydrated] = useState(false);
+    useEffect(() => setHasHydrated(true), []);
 
     let delayClose: ReturnType<typeof setTimeout> | undefined;
 
@@ -128,7 +135,11 @@ export const DesktopNav = ({
                                 {data.text}
                                 <ChevronIcon />
                             </NavigationMenu.Trigger>
-                            <Content css={contentStyles}>
+                            <Content
+                                forceMount={hasHydrated ? undefined : true}
+                                data-ssr-menu={hasHydrated ? undefined : 'true'}
+                                css={contentStyles}
+                            >
                                 <ul>
                                     {data.links?.map((subData, i) =>
                                         subData.links ? (
