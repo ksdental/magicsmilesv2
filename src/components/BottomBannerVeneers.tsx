@@ -1,4 +1,7 @@
 import { BottomBanner } from './BottomBanner';
+import { Fragment } from 'react';
+import { BigArrowBtn } from './buttons';
+import { scrollToSection } from './layout/Nav';
 import styled from '@emotion/styled';
 import { StaticImage } from 'gatsby-plugin-image';
 import { ReactComponent as CheckmarkIcon } from '@a/icons/checkmark.svg';
@@ -100,17 +103,35 @@ const imageStyles = css`
     }
 `;
 
-export const BottomBannerVeneers = () => {
+type Props = {
+    reconstructionCopy?: {
+        heading: string;
+        text: string;
+        cta: string;
+    };
+};
+
+export const BottomBannerVeneers = ({ reconstructionCopy }: Props) => {
     return (
         <BottomBanner>
             <div>
-                <StaticImage
-                    src="../../assets/images/veneers-info.png"
-                    alt="Learn more about porcelain veneers"
-                    width={590}
-                    height={848}
-                    css={imageStyles}
-                />
+                {reconstructionCopy ? (
+                    <StaticImage
+                        src="../../assets/images/reconstruction/3.jpg"
+                        alt="Smiling person"
+                        width={590}
+                        height={848}
+                        css={imageStyles}
+                    />
+                ) : (
+                    <StaticImage
+                        src="../../assets/images/veneers-info.png"
+                        alt="Learn more about porcelain veneers"
+                        width={590}
+                        height={848}
+                        css={imageStyles}
+                    />
+                )}
                 <StaticImage
                     src="../../assets/images/brush-underline.png"
                     alt=""
@@ -119,47 +140,63 @@ export const BottomBannerVeneers = () => {
                 />
             </div>
             <Box>
-                <h3>
-                    Complete This Short
-                    <br />
-                    <strong>Smile Evaluation</strong>
-                    <br />
-                    And Receive The Following:
-                </h3>
+                {reconstructionCopy ? (
+                    <h3>{reconstructionCopy.heading}</h3>
+                ) : (
+                    <h3>
+                        Complete This Short
+                        <br />
+                        <strong>Smile Evaluation</strong>
+                        <br />
+                        And Receive The Following:
+                    </h3>
+                )}
                 <StaticImage
                     src="../../assets/images/brush-underline.png"
                     alt=""
                     width={512}
                     height={8}
                 />
-                <List>
-                    <li>
-                        <CheckmarkIcon />
-                        <span>Pricing and options for treatment</span>
-                    </li>
-                    <li>
-                        <CheckmarkIcon />
-                        <span>If you’re a good candidate for veneers</span>
-                    </li>
-                    <li>
-                        <CheckmarkIcon />
-                        <span>
-                            A <strong>Digital Smile Design</strong> to show you what you will look
-                            like with your new veneers!
-                        </span>
-                    </li>
-                    <li>
-                        <CheckmarkIcon />
-                        <span>
-                            And best of all… a time to speak directly with our doctors. Top Cosmetic
-                            Dentists in New Jersey!
-                        </span>
-                    </li>
-                </List>
+                {reconstructionCopy ? (
+                    <Fragment>
+                        <p>{reconstructionCopy.text}</p>
+                        <BigArrowBtn
+                            type="button"
+                            onClick={() => scrollToSection('#pOHmknnJaTiMtYkNZx6l')}
+                        >
+                            {reconstructionCopy.cta}
+                        </BigArrowBtn>
+                    </Fragment>
+                ) : (
+                    <List>
+                        <li>
+                            <CheckmarkIcon />
+                            <span>Pricing and options for treatment</span>
+                        </li>
+                        <li>
+                            <CheckmarkIcon />
+                            <span>If you’re a good candidate for veneers</span>
+                        </li>
+                        <li>
+                            <CheckmarkIcon />
+                            <span>
+                                A <strong>Digital Smile Design</strong> to show you what you will
+                                look like with your new veneers!
+                            </span>
+                        </li>
+                        <li>
+                            <CheckmarkIcon />
+                            <span>
+                                And best of all… a time to speak directly with our doctors. Top
+                                Cosmetic Dentists in New Jersey!
+                            </span>
+                        </li>
+                    </List>
+                )}
                 <Iframe
                     src="https://api.leadconnectorhq.com/widget/survey/pOHmknnJaTiMtYkNZx6l"
                     id="pOHmknnJaTiMtYkNZx6l"
-                    title="Veneers"
+                    title={reconstructionCopy ? reconstructionCopy.heading : 'Veneers'}
                 ></Iframe>
             </Box>
         </BottomBanner>

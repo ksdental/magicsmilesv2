@@ -232,7 +232,13 @@ export default function Page() {
                 </div>
             </BgArticle>
 
-            <BottomBannerVeneers />
+            <BottomBannerVeneers
+                reconstructionCopy={{
+                    heading: 'Request a Full Mouth Reconstruction Consultation',
+                    text: 'Tell us about your dental concerns. Our team will contact you to discuss consultation options and what to expect next.',
+                    cta: 'Request a Consultation',
+                }}
+            />
         </Fragment>
     );
 }
