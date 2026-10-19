@@ -13,6 +13,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Dental Crowns and Bridges in Linden, NJ"
                 text="Dental Crowns & Bridges - Linden, NJ"
                 title={
                     <h2>

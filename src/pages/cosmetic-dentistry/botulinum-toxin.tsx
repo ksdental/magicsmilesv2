@@ -14,6 +14,7 @@ export default function BotolinumToxinPage() {
     return (
         <Fragment>
             <BasicHero
+                heading="Botulinum Toxin Treatment in Linden, NJ"
                 text="Cosmetic Dentistry - Linden, NJ"
                 title={
                     <h2>

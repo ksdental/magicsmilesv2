@@ -9,6 +9,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Before and After Smile Photos"
                 text="Before & After Photos - Linden, NJ"
                 title={
                     <h2>

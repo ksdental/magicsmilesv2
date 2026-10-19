@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { PlainBtn, PlayBtn } from './buttons';
 import { VideoModal } from './VideoModal';
 import { flexStart } from './layout/styles/classes';
@@ -78,14 +78,49 @@ type Props = {
 
 export const VideoSlide = ({ video, poster, text, videoTitle, videoID }: Props) => {
     const [open, setOpen] = useState(false);
+    const [loadVideo, setLoadVideo] = useState(false);
+    const videoRef = useRef<HTMLVideoElement>(null);
+
+    useEffect(() => {
+        const element = videoRef.current;
+        if (!element) return;
+        if (!('IntersectionObserver' in window)) {
+            setLoadVideo(true);
+            return;
+        }
+        const observer = new IntersectionObserver(
+            entries => {
+                if (entries.some(entry => entry.isIntersecting)) {
+                    setLoadVideo(true);
+                    observer.disconnect();
+                }
+            },
+            { rootMargin: '200px' }
+        );
+        observer.observe(element);
+        return () => observer.disconnect();
+    }, []);
+
+    useEffect(() => {
+        if (loadVideo) videoRef.current?.load();
+    }, [loadVideo]);
 
     const handlePlay = () => {
         setOpen(true);
     };
     return (
         <Box onClick={handlePlay}>
-            <video muted playsInline autoPlay preload="" loop poster={poster} controls={false}>
-                <source src={video} type="video/mp4" />
+            <video
+                ref={videoRef}
+                muted
+                playsInline
+                autoPlay
+                preload="none"
+                loop
+                poster={poster}
+                controls={false}
+            >
+                {loadVideo ? <source src={video} type="video/mp4" /> : null}
             </video>
             <div>
                 <PlayBtn as="div" />

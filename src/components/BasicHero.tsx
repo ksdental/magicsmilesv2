@@ -1,16 +1,27 @@
 import styled from '@emotion/styled';
 import { ReactNode } from 'react';
 import {
-    HeroBigTitleBox,
+    ResponsiveHeroTitle,
     HeroConsultationBtn,
     HeroSocialBar,
-    HeroTitleBox,
 } from './HeroComponents';
 import useLocationData from '@s/hooks/useLocationData';
 
 const Section = styled.section`
     padding-top: 135px;
     position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+
+    > .gatsby-image-wrapper {
+        grid-area: 1 / 1;
+    }
+
+    @media (min-width: 568px) and (max-width: 767px) {
+        > .gatsby-image-wrapper {
+            grid-area: 2 / 1;
+        }
+    }
 
     > .gatsby-image-wrapper {
         ::before {
@@ -80,24 +91,22 @@ const BottomBar = styled.div`
     }
 `;
 type Props = {
+    heading: string;
     text: string;
     title: ReactNode;
     image: ReactNode;
 };
 
-export const BasicHero = ({ text, title, image }: Props) => {
+export const BasicHero = ({ heading, title, image }: Props) => {
     const { pageTitle } = useLocationData();
 
     return (
         <Section>
-            <HeroTitleBox title={title} tagline={text} />
-            <HeroBigTitleBox videoExist={false}>
-                <p>{text}</p>
+            <ResponsiveHeroTitle>
+                <h1>{heading}</h1>
                 {title}
-            </HeroBigTitleBox>
+            </ResponsiveHeroTitle>
             {image}
-
-            <HeroTitleBox title={title} tagline={text} smMobile />
 
             <BottomBar>{pageTitle === 'contact-us' ? '' : <HeroConsultationBtn />}</BottomBar>
 

@@ -15,6 +15,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Emergency Dentist in Linden, NJ"
                 text="Emergency Dentistry - Linden, NJ"
                 title={
                     <h2>

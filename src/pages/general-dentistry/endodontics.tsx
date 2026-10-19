@@ -15,6 +15,7 @@ export default function Page() {
     return (
         <Fragment>
             <BasicHero
+                heading="Root Canal Treatment in Linden, NJ"
                 text="Endodontics - Linden, NJ"
                 title={
                     <h2>

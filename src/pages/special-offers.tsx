@@ -370,6 +370,7 @@ export default function SpecialOffersPage() {
     return (
         <Fragment>
             <BasicHero
+                heading="Dental Special Offers in Linden, NJ"
                 text="Special Dental Offers"
                 title={
                     <h2>

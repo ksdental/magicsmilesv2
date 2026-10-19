@@ -19,6 +19,7 @@ export default function Page() {
     return (
         <Fragment>
             <VideoHero
+                heading="Full Mouth Reconstruction in Linden, NJ"
                 tagline="Full Mouth Reconstruction - Linden, NJ"
                 title={
                     <h2>

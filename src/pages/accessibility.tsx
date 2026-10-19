@@ -10,6 +10,7 @@ export default function AccessibilityPage() {
     return (
         <Fragment>
             <BasicHero
+                heading="Accessibility Statement"
                 text="Our Commitment to Accessibility"
                 title={
                     <h2>

@@ -36,6 +36,15 @@ const Box = styled.div<{ firstImg?: boolean; dark?: boolean }>`
     max-width: ${({ firstImg }) => (firstImg ? '1060px' : '960px')};
     margin: 0 auto;
 
+    > h1.single-article-tagline {
+        ${textStyles};
+        color: ${({ theme, dark }) => (dark ? theme.colors.white : theme.colors.gray)};
+        font-size: 0.75rem;
+        margin: 0 0 10px;
+        font-weight: 300;
+        font-family: 'Raleway', sans-serif;
+    }
+
     > h2 {
         ${({ dark }) => (dark ? titleWhiteLine : titleLine)};
         margin: 0 0 30px;

@@ -263,6 +263,7 @@ export default function BlogPage({ data }: PageProps<DataProps>) {
     return (
         <Fragment>
             <BasicHero
+                heading="Dental Health Blog"
                 text="Dental Education & Insights"
                 title={
                     <h2>

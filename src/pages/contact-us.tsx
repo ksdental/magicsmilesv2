@@ -85,6 +85,7 @@ export default function Page({ location }: PageProps<object, LocationState>) {
     return (
         <Fragment>
             <BasicHero
+                heading="Contact Magic Smile Dental"
                 text="Contact Us - Linden, NJ"
                 title={
                     <h2>
