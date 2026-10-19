@@ -187,7 +187,7 @@ export default function Page() {
                             <CLink to={getNavLink('insurance & financing')}>
                                 flexible financing options
                             </CLink>{' '}
-                            to make affordable orthodontics affordable. As with every treatment, you
+                            to make orthodontics affordable. As with every treatment, you
                             can ask us to guide you through every step of your Invisalign journey
                             with professionalism and care.
                         </p>

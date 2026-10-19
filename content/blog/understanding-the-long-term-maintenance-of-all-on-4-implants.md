@@ -48,5 +48,5 @@ Investing in All on 4 implants is a significant decision, and ongoing maintenanc
 
 If you’re considering All on 4 implants or have already undergone the procedure, understanding the importance of long-term maintenance is essential for achieving optimal results. With guidance from Dr. Anatoly Bensianoff and the dedicated team at Magic Smile Dental, you can enjoy a beautiful, healthy smile for years to come.
 
-Ready to take the next step? Explore our [Full Mouth All on 4 Implants](/dental-implants/all-on-x/) service today! For personalized advice and comprehensive care, contact us at [(908) 743-8041](tel:9087438041) or visit our [contact page](/contact/). You can also find us on Google Maps [here](https://maps.app.goo.gl/QiAV96coovL9x3AK9).
+Ready to take the next step? Explore our [Full Mouth All on 4 Implants](/dental-implants/all-on-x/) service today! For personalized advice and comprehensive care, contact us at [(908) 743-8041](tel:9087438041) or visit our [contact page](https://www.lindennjdentist.com/contact-us/). You can also find us on Google Maps [here](https://maps.app.goo.gl/QiAV96coovL9x3AK9).
   

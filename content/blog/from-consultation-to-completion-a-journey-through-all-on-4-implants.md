@@ -49,7 +49,7 @@ Choosing the right dental practice for implant procedures is critical. At Magic 
 
 ## Your Journey to a Confident Smile Starts Today
 
-If you’re ready to take the first step toward restoring your smile with All on 4 implants, contact Magic Smile Dental today. Dr. Anatoly Bensianoff and his team are here to guide you through every aspect of the process, ensuring you feel supported and informed at every stage. Call us now at [(908) 743-8041](tel:9087438041), or visit our website to learn more about our [Full Mouth All on 4 Implants](/dental-implants/all-on-x/). You can also reach out via our [contact page](/contact/). Let us help you achieve the smile you've always dreamed of!
+If you’re ready to take the first step toward restoring your smile with All on 4 implants, contact Magic Smile Dental today. Dr. Anatoly Bensianoff and his team are here to guide you through every aspect of the process, ensuring you feel supported and informed at every stage. Call us now at [(908) 743-8041](tel:9087438041), or visit our website to learn more about our [Full Mouth All on 4 Implants](/dental-implants/all-on-x/). You can also reach out via our [contact page](https://www.lindennjdentist.com/contact-us/). Let us help you achieve the smile you've always dreamed of!
 
 Find us easily by checking our location on [Google Maps](https://maps.app.goo.gl/QiAV96coovL9x3AK9).
   
