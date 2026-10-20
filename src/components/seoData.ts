@@ -91,7 +91,7 @@ export const seoData: Seo = {
         d: 'Dental implant surgery is a procedure that replaces tooth roots with metal, screwlike posts and replaces damaged or missing teeth. Call Magic Smile Dental today!',
     },
     'full-mouth-reconstruction': {
-        t: 'Full Mouth Reconstruction | Linden, NJ | Magic Smile Dental',
+        t: 'Full Mouth Reconstruction in Linden, NJ | Magic Smile Dental',
         d: 'A full mouth reconstruction includes more that one cosmetic dental procedure. It can include dental crowns, dental implants, tooth extractions, veneers and more.',
     },
     'dental-crowns-bridges': {
