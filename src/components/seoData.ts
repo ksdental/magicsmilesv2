@@ -87,7 +87,7 @@ export const seoData: Seo = {
         d: 'Dental implants have a high success rate, but some people experience dental implant failure. Contact Magic Smile Dental to restore your implants today.',
     },
     'dental-implants': {
-        t: 'Dental Implants | Linden, NJ | Magic Smile Dental',
+        t: 'Dental Implants in Linden, NJ | Magic Smile Dental',
         d: 'Dental implant surgery is a procedure that replaces tooth roots with metal, screwlike posts and replaces damaged or missing teeth. Call Magic Smile Dental today!',
     },
     'full-mouth-reconstruction': {
