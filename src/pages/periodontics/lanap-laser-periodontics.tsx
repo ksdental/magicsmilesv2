@@ -17,7 +17,7 @@ export default function Page() {
                 tagline="Laser Gum Disease Treatment - Linden, NJ"
                 title={
                     <h2>
-                        <strong>Reverse Gum Disease Damage</strong>with LANAP Laser Therapy
+                        <strong>Gum Disease Treatment</strong>with LANAP Laser Therapy
                     </h2>
                 }
                 bottomText="The Benefits Of Laser Dentistry!"
@@ -55,10 +55,8 @@ export default function Page() {
                 <p>
                     At Magic Smile Dental, we help with early{' '}
                     <CLink to={getNavLink('general dentistry')}>gingivitis treatment options</CLink>{' '}
-                    and LANAP laser gum disease treatment in Linden, NJ! This innovative procedure
-                    targets and removes diseased tissue while promoting the regeneration of healthy
-                    gum tissue, reversing the damage of periodontal disease and potentially saving
-                    your smile.
+                    and LANAP laser gum disease treatment in Linden, NJ. Ask our doctors about your
+                    treatment options.
                 </p>
             </SingleArticle>
 
@@ -73,27 +71,17 @@ export default function Page() {
                         />
                         <BgArticleBox>
                             <h2>
-                                <strong>The Benefits</strong> of LANAP Gum Disease Treatment
+                                <strong>Questions to Ask</strong> About LANAP Gum Disease Treatment
                             </h2>
                             <ul>
-                                <li>Minimally invasive; no need for scalpels or sutures</li>
-                                <li>Less than 24 hours of downtime needed in most cases</li>
-                                <li>
-                                    Far more comfortable than surgical periodontal disease
-                                    treatments
-                                </li>
-                                <li>
-                                    Convenient care without coordinating with a periodontist in a
-                                    specialty practice
-                                </li>
-                                <li>Faster recovery time compared to osseous surgery</li>
-                                <li>
-                                    Promotes regeneration of healthy gum and bone tissue naturally
-                                </li>
-                                <li>
-                                    Proven effective treatment for even advanced periodontal disease
-                                </li>
-                                <li>More predictable than surgical options</li>
+                                <li>Is LANAP suitable for my gum disease?</li>
+                                <li>What will the procedure involve?</li>
+                                <li>How will comfort be managed?</li>
+                                <li>How much downtime should I plan for?</li>
+                                <li>What should I expect during recovery?</li>
+                                <li>What outcomes are realistic for my condition?</li>
+                                <li>What alternatives should I consider?</li>
+                                <li>What ongoing periodontal care will I need?</li>
                             </ul>
                         </BgArticleBox>
                     </div>
@@ -123,9 +111,9 @@ export default function Page() {
                             <p>
                                 LANAP laser gum disease treatment offers a modern alternative, using
                                 laser technology to precisely target diseased tissue while
-                                preserving healthy gums. This means less pain, quicker healing, and
-                                a more predictable approach. The cost of LANAP can sometimes be
-                                slightly higher than osseous surgery, but we offer{' '}
+                                preserving healthy gums. Recovery and treatment outcomes vary from
+                                person to person. The cost of LANAP can sometimes be slightly higher
+                                than osseous surgery, but we offer{' '}
                                 <CLink to={getNavLink('Insurance & Financing')}>
                                     flexible financing options
                                 </CLink>{' '}
@@ -161,8 +149,8 @@ export default function Page() {
                     Finally, we’ll apply the laser again at a setting that stimulates healthy cells
                     and creates a seal in the gums, reducing bleeding and speeding up the healing
                     process. After the procedure, our team will provide you with personalized care
-                    instructions to ensure the best possible outcome. If you’ve already lost some
-                    teeth to periodontal disease, we can also rebuild your smile with{' '}
+                    instructions. If you’ve already lost some teeth to periodontal disease, we can
+                    also rebuild your smile with{' '}
                     <CLink to={getNavLink('dental implants')}>dental implants</CLink> once your gum
                     health has stabilized.
                 </p>
@@ -171,8 +159,7 @@ export default function Page() {
             <BottomBanner
                 title={
                     <h2>
-                        <strong>Reverse Your Gum Disease</strong> with the Power of Modern
-                        Technology!
+                        <strong>Explore Gum Disease Treatment</strong> with Modern Technology
                     </h2>
                 }
             >

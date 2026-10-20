@@ -29,8 +29,7 @@ export const Treatments = () => {
                         stitching.
                     </p>
                     <p>
-                        LANAP has excellent success rates and virtually no downtime, making it a
-                        crucial option for reversing your periodontal disease to save your smile.
+                        Ask our doctors whether LANAP is an option for your gum disease treatment.
                     </p>
                 </div>
             </ImgArticle>
@@ -49,7 +48,7 @@ export const Treatments = () => {
                     <h3>Dental Implants</h3>
                     <p>
                         <CLink to={getNavLink('dental implants')}>Dental implants</CLink> are a
-                        permanent solution for replacing missing teeth. Whether you’re missing one
+                        treatment option for replacing missing teeth. Whether you’re missing one
                         tooth, several teeth in a row, or need a full-mouth restoration, implants
                         provide a stable and natural-looking result.
                     </p>
@@ -78,14 +77,9 @@ export const Treatments = () => {
                         </CLink>{' '}
                         are designed for patients who need to replace an entire arch of teeth. This
                         innovative solution uses a strategic number of implants to support a full
-                        set of prosthetic teeth, giving you a complete, natural-looking smile in
-                        just one procedure.
+                        set of prosthetic teeth.
                     </p>
-                    <p>
-                        Unlike traditional dentures, full mouth dental implants won’t limit your
-                        food choices, so you can enjoy a fresh salad, juicy steak, and crisp apples
-                        again!
-                    </p>
+                    <p>Ask our doctors about eating with full mouth dental implants.</p>
                 </div>
             </ImgArticle>
             <ImgArticle
@@ -105,10 +99,9 @@ export const Treatments = () => {
                         A <CLink to={getNavLink('endodontics')}>root canal</CLink> is a comfortable,
                         effective procedure to treat infected or damaged tooth pulp, relieving pain
                         and preserving your natural tooth. By removing the infection, cleaning the
-                        root canal, and sealing it, we prevent further issues and protect your oral
-                        health. Modern root canal treatments are a reliable way to save a tooth that
-                        might otherwise need extraction, helping you maintain a healthy, pain-free
-                        smile for years to come.
+                        root canal, and sealing it, we aim to protect your oral health. Modern root
+                        canal treatments are a reliable way to save a tooth that might otherwise
+                        need extraction.
                     </p>
                 </div>
             </ImgArticle>

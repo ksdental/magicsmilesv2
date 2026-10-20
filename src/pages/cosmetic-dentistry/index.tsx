@@ -42,8 +42,7 @@ export default function Page() {
                     impression in personal and professional interactions. At Magic Smile Dental, we
                     understand the impact of an imperfect smile on your appearance, self-esteem, and
                     social confidence. Whether you’re dealing with stains, chips, gaps, or missing
-                    teeth, our skilled restoration dentist, our doctors are committed to restoring
-                    and enhancing your smile.
+                    teeth, our doctors are committed to restoring and enhancing your smile.
                 </p>
 
                 <p>
@@ -96,10 +95,7 @@ export default function Page() {
                 <h2>
                     <strong>Smile Design </strong>Preview
                 </h2>
-                <p>
-                    Upload a recent photo of yourself and we’ll show you how you can look after
-                    dental implants. Be sure the photo shows your current smile!
-                </p>
+                <p>Upload a recent photo that clearly shows your current smile.</p>
             </DialogArticle>
 
             <ImgArticleSection>

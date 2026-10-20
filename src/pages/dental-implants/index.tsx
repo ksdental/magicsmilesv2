@@ -99,7 +99,7 @@ export default function Page() {
                 tagline="Dental Implants - Linden, NJ"
                 title={
                     <h2>
-                        <strong>The Permanent Solution</strong>To Tooth Loss
+                        <strong>A Treatment Option</strong>for Tooth Loss
                     </h2>
                 }
                 bottomText="I Never Thought My Confidence Was Ever Going To Be Restored"
@@ -195,7 +195,7 @@ export default function Page() {
                     height={597}
                 />
                 <h2>
-                    <strong>Permanent Full Arch Dental Implants </strong>vs. Removable Options
+                    <strong>Full Arch Dental Implants </strong>vs. Removable Options
                 </h2>
                 <p>
                     Although dentures are a common choice for restoring smiles, they have several
@@ -325,7 +325,7 @@ export default function Page() {
                             to create an affordable payment plan for your budget.
                         </p>
                     </AccordionItem>
-                    <AccordionItem value="2" text="The Procedure & Same-Day Teeth">
+                    <AccordionItem value="2" text="The Implant Procedure">
                         <p>
                             On the day of your surgery, we’ll make small incisions in the gums to
                             access the underlying bone and place your implant posts. If you need
@@ -333,11 +333,7 @@ export default function Page() {
                             implant posts in the same appointment to streamline your treatment
                             process.
                         </p>
-                        <p>
-                            Whenever possible, we’ll attach a temporary restoration the same day as
-                            your surgery so you can immediately experience the benefits of a
-                            complete smile!
-                        </p>
+                        <p>Ask our doctors about the timing of your temporary restoration.</p>
                     </AccordionItem>
                     <AccordionItem value="3" text="Follow-Up Appointment">
                         <p>
@@ -366,7 +362,7 @@ export default function Page() {
                             office so that we can test their strength and create updated scans.
                             We’ll then use these to craft your customized final restorations. When
                             your final prosthesis is ready, we’ll test it for fit and aesthetics
-                            before permanently placing your beautiful new smile!
+                            before placing your final restoration.
                         </p>
                     </AccordionItem>
                 </Accordion>
