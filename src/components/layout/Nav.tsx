@@ -11,7 +11,7 @@ import { textStyles, flexCenter, flexSpace } from './styles/classes';
 import { theme } from './styles/GlobalStyles';
 import bg from '@a/images/nav-menu-bg.jpg';
 import { MobNav } from './MobNav';
-import { PlainBtn } from '@/buttons';
+import { PlainBtn, PrimaryBtn } from '@/buttons';
 import { ReactComponent as CalendarIcon } from '@a/icons/calendar.svg';
 
 const Navbar = styled.header<{ scrolled: boolean }>`
@@ -33,7 +33,12 @@ const Top = styled.div`
     margin: 0 auto;
 
     @media (min-width: 1100px) {
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+
+        > a {
+            grid-column: 2;
+        }
     }
 `;
 
@@ -143,6 +148,35 @@ const PhoneLink = styled.p`
     }
 `;
 
+const HeaderActions = styled.div`
+    display: none;
+
+    @media (min-width: 1100px) {
+        display: flex;
+        grid-column: 3;
+        justify-self: end;
+        align-items: center;
+        gap: 24px;
+        margin-right: 30px;
+
+        > p:first-of-type,
+        > p:last-of-type {
+            margin: 0;
+        }
+    }
+`;
+
+const BookOnlineBtn = styled(PrimaryBtn)`
+    flex-shrink: 0;
+    white-space: nowrap;
+    background-color: ${({ theme }) => theme.colors.darkBlue};
+
+    :focus-visible {
+        outline: 2px solid ${({ theme }) => theme.colors.darkBlue};
+        outline-offset: 3px;
+    }
+`;
+
 const Bottom = styled.div`
     ${flexSpace};
     background-color: ${({ theme }) => theme.colors.lighterBlue};
@@ -226,19 +260,18 @@ export const Nav = () => {
             <Navbar scrolled={scrolled}>
                 <div>
                     <Top>
-                        <PhoneLink style={{ visibility: 'hidden' }}>
-                            <span>call today</span>
-                            <CLink to={siteInfo.currentPatientsPhone.link}>
-                                {siteInfo.currentPatientsPhone.text}
-                            </CLink>
-                        </PhoneLink>
                         <HomeLogo />
-                        <PhoneLink>
-                            <span>call today</span>
-                            <CLink to={siteInfo.currentPatientsPhone.link}>
-                                {siteInfo.currentPatientsPhone.text}
-                            </CLink>
-                        </PhoneLink>
+                        <HeaderActions>
+                            <PhoneLink>
+                                <span>call today</span>
+                                <CLink to={siteInfo.currentPatientsPhone.link}>
+                                    {siteInfo.currentPatientsPhone.text}
+                                </CLink>
+                            </PhoneLink>
+                            <BookOnlineBtn as={CLink} to={siteInfo.appointmentLink}>
+                                Book Online
+                            </BookOnlineBtn>
+                        </HeaderActions>
                     </Top>
                     <DesktopNavMenu
                         menuStyles={menuStyles}
@@ -250,7 +283,7 @@ export const Nav = () => {
                         <div>
                             <PlainBtn as={CLink} to={siteInfo.appointmentLink}>
                                 <CalendarIcon />
-                                Schedule Consultation
+                                Book Online
                             </PlainBtn>
                         </div>
                         <MobNav />
