@@ -257,8 +257,7 @@ export default function Page() {
                             bridges, or dentures.
                         </p>
                         <p>
-                            They offer long-term benefits by preventing bone loss and maintaining
-                            the integrity of the surrounding teeth. Dental implants can restore
+                            Dental implants can restore
                             functionality and aesthetics with proper care, allowing patients to
                             enjoy a confident smile and improved oral health for years.
                         </p>

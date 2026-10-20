@@ -27,6 +27,26 @@ export const CLink = forwardRef<HTMLAnchorElement, MyLinkProps>(function MyLink(
         );
     }
 
+    // CallRail swap.js rewrites tel: link text/href before hydration. Render plain-text phone labels as
+    // unmanaged HTML so React neither discards the SSR tree (#418/#423/#425) nor reverts the swapped number.
+    if (props.to.startsWith('tel:') && typeof props.children === 'string') {
+        const html = props.children
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        const { children, ...attrs } = rest;
+        return (
+            <a
+                {...attrs}
+                href={props.to}
+                ref={ref}
+                suppressHydrationWarning
+                dangerouslySetInnerHTML={{ __html: html }}
+            />
+        );
+    }
+
     return (
         <a {...rest} href={props.to} ref={ref}>
             {props.children}

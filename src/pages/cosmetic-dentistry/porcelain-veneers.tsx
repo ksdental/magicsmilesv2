@@ -1,6 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import { Fragment } from 'react';
 import { SingleArticle } from '@/SingleArticle';
+import { CLink } from '@/CLink';
 import { BigArrowBtn } from '@/buttons';
 import { BasicHero } from '@/BasicHero';
 import BgArticle, { BgArticleBox } from '@/BgArticle';
@@ -168,6 +169,17 @@ export default function Page() {
                     for cosmetic procedures like veneers. Our team is dedicated to assisting you in
                     finding a solution that fits your budget while ensuring you receive the smile
                     transformation you deserve!
+                </p>
+                <p>
+                    Related reading:{' '}
+                    <CLink to="/blog/the-science-behind-porcelain-veneers-how-they-work-to-enhance-your-smile/">
+                        the science behind porcelain veneers
+                    </CLink>{' '}
+                    and{' '}
+                    <CLink to="/blog/top-5-questions-to-ask-your-dentist-before-getting-porcelain-veneers/">
+                        questions to ask your dentist before getting porcelain veneers
+                    </CLink>
+                    .
                 </p>
             </SingleArticle>
 

@@ -177,9 +177,8 @@ export default function Page() {
                             <ul>
                                 <li>Reestablishes ability to chew properly</li>
                                 <li>Restores cosmetic appearance</li>
-                                <li>Preserves health of bone and gums</li>
+                                <li>Bone and gum health require ongoing care and monitoring</li>
                                 <li>Helps keep adjacent teeth stable</li>
-                                <li>Prevents facial changes caused by bone loss</li>
                                 <li>Improves quality of life</li>
                             </ul>
                         </BgArticleBox>
@@ -205,10 +204,7 @@ export default function Page() {
                     structure, such as a sunken appearance.
                 </p>
                 <p>
-                    Full mouth dental implants offer a superior solution by integrating directly
-                    with the jawbone, providing a stable, long-lasting alternative that prevents
-                    bone loss and maintains the natural shape of your face without the worry of
-                    shifting or falling out.
+                    Full mouth dental implants are anchored in the jawbone. Our doctors can evaluate whether they are suitable for you.
                 </p>
             </SingleArticle>
 
@@ -264,10 +260,7 @@ export default function Page() {
                         <p>
                             An implant-supported denture attaches directly to your jawbone with
                             dental implants instead of resting on your gums. The prosthesis can be
-                            designed as removable or fixed. The latter offers the most stability and
-                            function while eliminating the common daily issues associated with
-                            traditional dentures, bone loss, and undesirable facial changes down the
-                            road.
+                            designed as removable or fixed. Our doctors can discuss whether a removable or fixed implant-supported denture is suitable for you.
                         </p>
                     </div>
                     <div>
@@ -352,10 +345,7 @@ export default function Page() {
                     </AccordionItem>
                     <AccordionItem value="4" text="Healing and Final Restorations">
                         <p>
-                            Over the next several months, your dental implant posts will fuse with
-                            the supporting bone in osseointegration. As you heal, it’s important
-                            that you follow our instructions for caring for your implants to avoid
-                            complications that could compromise your outcome.
+                            Over the next several months, your dental implant posts are designed to fuse with the supporting bone through osseointegration. As you heal, it’s important that you follow our instructions for caring for your implants to reduce the risk of complications that could compromise your outcome.
                         </p>
                         <p>
                             Once your implants have had enough time to heal, you’ll return to our

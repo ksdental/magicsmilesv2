@@ -109,9 +109,7 @@ export default function Page() {
                             </p>
 
                             <p>
-                                LANAP laser gum disease treatment offers a modern alternative, using
-                                laser technology to precisely target diseased tissue while
-                                preserving healthy gums. Recovery and treatment outcomes vary from
+                                LANAP laser gum disease treatment offers a modern alternative, using laser technology to treat diseased gum tissue. Recovery and treatment outcomes vary from
                                 person to person. The cost of LANAP can sometimes be slightly higher
                                 than osseous surgery, but we offer{' '}
                                 <CLink to={getNavLink('Insurance & Financing')}>
@@ -135,20 +133,15 @@ export default function Page() {
                     What Is <strong>the LANAP Process?</strong>
                 </h2>
                 <p>
-                    LANAP is a highly effective periodontal disease treatment that can restore your
-                    oral health and protect your smile. It can be done in the comfort of a practice
+                    LANAP is a periodontal disease treatment that aims to restore your oral health and protect your smile. It can be done in the comfort of a practice
                     you already know and love. The LANAP process at Magic Smile Dental begins with a
                     thorough evaluation to determine the extent of your gum disease. We will use a
                     specialized laser to remove bacteria and infected tissue while keeping healthy
                     tissue intact during the procedure. We will remove any debris left behind using
                     ultrasonic scalers that break up hardened tartar and flush out the gum pocket.
-                    We’ll also adjust the bone to create the most favorable conditions for bone
-                    regeneration.
                 </p>
                 <p>
-                    Finally, we’ll apply the laser again at a setting that stimulates healthy cells
-                    and creates a seal in the gums, reducing bleeding and speeding up the healing
-                    process. After the procedure, our team will provide you with personalized care
+                    After the procedure, our team will provide you with personalized care
                     instructions. If you’ve already lost some teeth to periodontal disease, we can
                     also rebuild your smile with{' '}
                     <CLink to={getNavLink('dental implants')}>dental implants</CLink> once your gum

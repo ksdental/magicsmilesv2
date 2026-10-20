@@ -22,11 +22,7 @@ export const Treatments = () => {
                 <div>
                     <h3>LANAP</h3>
                     <p>
-                        <CLink to={getNavLink('lanap procedure')}>LANAP</CLink> is a revolutionary
-                        laser treatment for gum disease. It offers a less invasive alternative to
-                        traditional gum surgery. This advanced procedure only targets and removes
-                        diseased tissue, promoting healing and regeneration without cutting or
-                        stitching.
+                        <CLink to="/periodontics/lanap-laser-periodontics/">LANAP</CLink> is a laser treatment for gum disease that may be an alternative to traditional gum surgery for some patients.
                     </p>
                     <p>
                         Ask our doctors whether LANAP is an option for your gum disease treatment.
@@ -96,8 +92,7 @@ export const Treatments = () => {
                 <div>
                     <h3>Root Canal Treatment</h3>
                     <p>
-                        A <CLink to={getNavLink('endodontics')}>root canal</CLink> is a comfortable,
-                        effective procedure to treat infected or damaged tooth pulp, relieving pain
+                        A <CLink to={getNavLink('endodontics')}>root canal</CLink> is a procedure to treat infected or damaged tooth pulp, relieving pain
                         and preserving your natural tooth. By removing the infection, cleaning the
                         root canal, and sealing it, we aim to protect your oral health. Modern root
                         canal treatments are a reliable way to save a tooth that might otherwise
