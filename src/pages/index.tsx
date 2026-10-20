@@ -28,7 +28,8 @@ export default function Home() {
                     offices. With an experienced oral surgeon on staff, we can offer various
                     treatments, from{' '}
                     <CLink to={getNavLink('general dentistry')}>routine dental care</CLink> to{' '}
-                    <CLink to={getNavLink('oral surgery')}>complex oral surgery</CLink>.
+                    <CLink to={getNavLink('oral surgery')}>complex oral surgery</CLink>. Learn about{' '}
+                    <CLink to="/emergency-dentistry/">emergency dental care in Linden</CLink>.
                 </p>
                 <p>
                     We take time with each procedure. We tailor our care to meet the unique needs of

@@ -42,7 +42,7 @@ export default function Page() {
                     Ignoring dental pain, whether acute or chronic, can lead to permanent damage
                     affecting oral and overall health. Differentiating between issues that can wait
                     and those needing urgent care can be challenging. However, persistent severe
-                    oral pain or bleeding always indicates an emergency.
+                    oral pain or bleeding can indicate an emergency.
                 </p>
                 <p>
                     Dental emergencies cause physical discomfort and disrupt daily life,
@@ -116,12 +116,10 @@ export default function Page() {
                             something hard and part of your tooth around a filling breaks off. In
                             other cases, a crack can be asymptomatic or produce fleeting symptoms
                             that you may ignore. If the crack extends from the chewing surface of
-                            your tooth vertically down into the pulp, a root canal can prevent
-                            further damage.
+                            your tooth vertically down into the pulp, a root canal may help prevent further damage.
                         </p>
                         <p>
-                            But if the crack extends below the gum line, it’s no longer treatable
-                            and will require extraction, followed by a{' '}
+                            If the crack extends below the gum line, the tooth may not be treatable and may require extraction, followed by a{' '}
                             <CLink to={getNavLink('dental implants')}>dental implant</CLink> or{' '}
                             <CLink to={getNavLink('dental crowns & bridges')}>bridge</CLink>. Other
                             types of damage include craze lines, fractured cusps, split teeth, and
@@ -135,10 +133,7 @@ export default function Page() {
                             important to be seen by your dentist as soon as possible.
                         </p>
                         <p>
-                            A missing tooth can affect the surrounding teeth and put you at high
-                            risk for infection. Avoid food and drink and rinse with warm water to
-                            minimize pain and bleeding. To increase the chances of saving your
-                            tooth, keep it in milk or saliva until you can see our team.
+                            If an adult tooth is knocked out, keep it moist until you see a dentist: place it in milk, hold it between your cheek and gums, or use a tooth preservation product with the ADA Seal of Acceptance.
                         </p>
                     </AccordionItem>
                     <AccordionItem value="5" text="Swollen Oral Tissue">
