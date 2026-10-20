@@ -92,10 +92,15 @@ export const AppointmentSection = ({
     image?: boolean;
     useCallRail?: boolean;
 }) => {
+    // CallRail form.js injects its iframe into the wrapper before hydration; keep its children unmanaged by React.
     return (
         <Section formRight={formRight}>
             {useCallRail ? (
-                <CallRailFormWrapper id="cr-form-FOR019a13345dc77dbfb3f28f8b3a65db6d" />
+                <CallRailFormWrapper
+                    id="cr-form-FOR019a13345dc77dbfb3f28f8b3a65db6d"
+                    dangerouslySetInnerHTML={{ __html: '' }}
+                    suppressHydrationWarning
+                />
             ) : (
                 <ContactForm />
             )}

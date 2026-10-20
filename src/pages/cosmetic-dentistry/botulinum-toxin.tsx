@@ -48,7 +48,7 @@ export default function BotolinumToxinPage() {
                     implant dentistry or flexible financing options, Dr. Anatoly Bensianoff and his
                     dedicated team are here to guide you through your journey toward a healthier smile.
                     For more information or to schedule an appointment, call{' '}
-                    <a href="tel:+19087438041">(908) 743-8041</a> today!
+                    <a href="tel:+19087438041" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: "(908) 743-8041" }} /> today!
                 </p>
             </SingleArticle>
 
