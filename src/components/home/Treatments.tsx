@@ -68,7 +68,7 @@ export const Treatments = () => {
                 <div>
                     <h3>All-On-X Full Arch Dental Implants</h3>
                     <p>
-                        <CLink to={getNavLink('allonx')}>
+                        <CLink to="/dental-implants/all-on-x/">
                             The All-on-X full arch dental implants
                         </CLink>{' '}
                         are designed for patients who need to replace an entire arch of teeth. This

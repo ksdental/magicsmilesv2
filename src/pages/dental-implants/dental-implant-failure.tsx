@@ -73,12 +73,12 @@ export default function Page() {
                                 LAPIP, or Laser-Assisted Peri-Implantitis Procedure, is a
                                 cutting-edge treatment designed to save failing dental implants
                                 using the same laser technology we use to{' '}
-                                <CLink to={getNavLink('lanap procedure')}>treat gum disease</CLink>.
+                                <CLink to="/periodontics/lanap-laser-periodontics/">treat gum disease</CLink>.
                                 This laser-based therapy targets the infected tissue around the
                                 implant without damaging the surrounding healthy bone and gum. It
                                 can stimulate healthy cells and even regenerate bone tissue where
                                 needed without needing{' '}
-                                <CLink to={getNavLink('oral dentistry')}>bone grafts</CLink>.
+                                <CLink to="/oral-dentistry/">bone grafts</CLink>.
                             </p>
                             <p>
                                 LAPIP can help stabilize your implant and prevent further
