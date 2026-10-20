@@ -21,7 +21,7 @@ export const siteInfo = {
         google: 'https://maps.app.goo.gl/k1vHiQzefDGzn6ju5',
         tiktok: 'https://www.tiktok.com/@magicsmilelindennj',
     },
-    appointmentLink: 'https://app.nexhealth.com/appt/magic-smile-dental?lid=324621',
+    appointmentLink: 'https://www.zocdoc.com/booking-link/practice/magic-smile-dental-187658',
 };
 
 export type NavLinksTypes = { text: string; link: string; links?: NavLinksTypes }[];
