@@ -100,8 +100,8 @@ export default function Page() {
                         <p>
                             Toothaches can be more than a painful nuisance—your body tells you
                             something isn’t right in your mouth. When you experience sudden and
-                            unexplainable tooth pain, call Magic Smile Dental, and we’ll fit you
-                            into our schedule.
+                            unexplainable tooth pain, call Magic Smile Dental during our business
+                            hours to ask about appointment availability.
                         </p>
                         <p>
                             Our qualified emergency dental team has the advanced skills and gentle
@@ -130,10 +130,9 @@ export default function Page() {
                     </AccordionItem>
                     <AccordionItem value="4" text="Dislodged or Knocked Out Tooth">
                         <p>
-                            A dislodged or knocked-out tooth should be treated within 12 to 24 hours
-                            to minimize trauma and save your tooth. If you lose a tooth due to
-                            trauma or it comes loose from infection, it’s important to be seen by
-                            your dentist as soon as possible.
+                            For a dislodged or knocked-out tooth, contact a dentist immediately. If
+                            you lose a tooth due to trauma or it comes loose from infection, it’s
+                            important to be seen by your dentist as soon as possible.
                         </p>
                         <p>
                             A missing tooth can affect the surrounding teeth and put you at high
@@ -159,11 +158,10 @@ export default function Page() {
                             the underlying bone and nerves. If the blood clot doesn’t form or gets
                             dislodged, sensitive underlying tissue is exposed. When nerves are
                             exposed, this can be an excruciating experience that only gets worse if
-                            you delay treatment. Call Magic Smile Dental immediately to alleviate
-                            severe pain, and we’ll fit you into our schedule. Treatment involves
-                            gently rinsing and packing the socket with a medicated gauze pad. This
-                            process may need to be repeated until a blood clot forms and your pain
-                            subsides.
+                            you delay treatment. Call Magic Smile Dental during our business hours
+                            to ask about appointment availability. Treatment involves gently rinsing
+                            and packing the socket with a medicated gauze pad. This process may need
+                            to be repeated until a blood clot forms and your pain subsides.
                         </p>
                     </AccordionItem>
                 </Accordion>
@@ -194,9 +192,7 @@ export default function Page() {
                             <CLink to={getNavLink('insurance & financing')}>
                                 financing options
                             </CLink>{' '}
-                            to ensure that excellent, comfortable, and accessible dental care is
-                            always available, whether for scheduled visits or unforeseen
-                            circumstances impacting your smile.
+                            for scheduled visits or unforeseen circumstances impacting your smile.
                         </p>
                     </BgArticleBox>
                 </div>

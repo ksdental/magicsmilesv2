@@ -5,7 +5,7 @@ import { css } from '@emotion/react';
 import { PlayBtn } from './buttons';
 import { VideoModal } from './VideoModal';
 import poster from '@a/images/video-posters/home-hero-poster.jpg';
-import posterMobile from '@a/images/video-posters/home-hero-poster-small.jpg';
+import posterMobile from '@a/images/video-posters/home-hero-poster-small.webp';
 import video from '@a/video/home-hero.mp4';
 import {
     HeroBigPlayBtn,

@@ -31,10 +31,10 @@ export default function Home() {
                     <CLink to={getNavLink('oral surgery')}>complex oral surgery</CLink>.
                 </p>
                 <p>
-                    We take time with each procedure to guarantee the best, most personalized
-                    results. We tailor our care to meet the unique needs of every patient. Plus, we
-                    speak your language. Whether Spanish, Russian, Ukrainian, or Polish, we make
-                    communicating and feeling comfortable throughout your treatment more accessible.
+                    We take time with each procedure. We tailor our care to meet the unique needs of
+                    every patient. Plus, we speak your language. Whether Spanish, Russian,
+                    Ukrainian, or Polish, we make communicating and feeling comfortable throughout
+                    your treatment more accessible.
                 </p>
             </SingleArticle>
             <MeetDoctors />
