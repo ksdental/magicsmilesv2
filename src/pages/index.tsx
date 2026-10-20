@@ -48,5 +48,10 @@ export default function Home() {
 }
 
 export const Head = ({ location }: HeadProps) => {
-    return <Seo pathname={location.pathname.split('/').slice(-2)[0]} />;
+    return (
+        <Seo
+            pathname={location.pathname.split('/').slice(-2)[0]}
+            title={location.pathname === '/' ? 'Dentist Linden NJ | Magic Smile Dental' : undefined}
+        />
+    );
 };
