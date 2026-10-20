@@ -4,6 +4,7 @@ import { Fragment, useEffect } from 'react';
 import styled from '@emotion/styled';
 import { flexCenter } from '@/layout/styles/classes';
 import { CLink } from '@/CLink';
+import { PrimaryBtn } from '@/buttons';
 import { siteInfo } from '@/layout/NavLinks';
 import { ReactComponent as PhoneIcon } from '@a/icons/phone.svg';
 import { ReactComponent as PinIcon } from '@a/icons/pin.svg';
@@ -72,6 +73,31 @@ const Flex = styled.div`
     }
 `;
 
+const BookingSection = styled.section`
+    padding: 0 20px 60px;
+    text-align: center;
+
+    > h2 {
+        margin: 0 0 20px;
+        font-size: 2rem;
+        color: ${({ theme }) => theme.colors.darkBlue};
+    }
+
+    > p {
+        max-width: 650px;
+        margin: 0 auto 30px;
+    }
+`;
+
+const BookingButton = styled(PrimaryBtn)`
+    background-color: ${({ theme }) => theme.colors.darkBlue};
+
+    :hover,
+    :focus-visible {
+        background-color: ${({ theme }) => theme.colors.darkerBlue};
+    }
+`;
+
 type LocationState = {
     scrollToSection?: boolean;
     tag?: string;
@@ -107,7 +133,9 @@ export default function Page({ location }: PageProps<object, LocationState>) {
                     <h4>Phone number</h4>
                     <p>
                         Call Today:{' '}
-                        <CLink to={siteInfo.currentPatientsPhone.link}>{siteInfo.currentPatientsPhone.text}</CLink>
+                        <CLink to={siteInfo.currentPatientsPhone.link}>
+                            {siteInfo.currentPatientsPhone.text}
+                        </CLink>
                     </p>
                 </div>
 
@@ -137,6 +165,16 @@ export default function Page({ location }: PageProps<object, LocationState>) {
                     </p>
                 </div>
             </Flex>
+            <BookingSection aria-labelledby="online-booking-title">
+                <h2 id="online-booking-title">Book Your Appointment Online</h2>
+                <p>
+                    Schedule your visit with Magic Smile Dental through Zocdoc. Choose an available
+                    appointment time and book online.
+                </p>
+                <BookingButton as={CLink} to={siteInfo.appointmentLink}>
+                    Book Online
+                </BookingButton>
+            </BookingSection>
             <CenterIcon />
             <AppointmentSection formRight useCallRail>
                 <iframe
