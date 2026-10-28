@@ -6,7 +6,6 @@ import { PlayBtn } from './buttons';
 import { VideoModal } from './VideoModal';
 import poster from '@a/images/video-posters/home-hero-poster.jpg';
 import posterMobile from '@a/images/video-posters/home-hero-poster-small.webp';
-import video from '@a/video/home-hero.mp4';
 import {
     HeroBigPlayBtn,
     HeroBottomBar,
@@ -108,7 +107,10 @@ export default function HomeHero() {
                     controls={false}
                     poster={currentPoster}
                 >
-                    <source src={video} type="video/mp4" />
+                    <source
+                        src="https://kickstartshark.sfo2.cdn.digitaloceanspaces.com/videos/magicsmiles/home-hero-magic-smiles.mp4"
+                        type="video/mp4"
+                    />
                 </HeroVideo>
                 <StaticImage
                     src="../../assets/images/home/hero/center.png"
