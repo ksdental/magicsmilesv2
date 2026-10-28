@@ -6,7 +6,7 @@ category: "Sedation Dentistry"
 featuredImageAlt: "Patient resting in a dental chair with a nitrous oxide nasal mask"
 excerpt: "Learn how conscious sedation, moderate sedation, twilight sedation, and nitrous oxide differ, plus what to ask before dental treatment in Linden."
 featuredImage: "../images/sedation-patient.jpg"
-date: "2026-10-28"
+date: "2026-10-28T12:00:00Z"
 ---
 
 “Moderate sedation” is the most common clinical term used as another name for conscious sedation, but the wording is not perfectly interchangeable in every dental context. You may also hear “twilight sedation,” while nitrous oxide-oxygen sedation may be called “conscious sedation” or “relative analgesia.” The safest approach is to ask what level of sedation is intended and how it will be delivered.

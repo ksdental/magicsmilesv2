@@ -6,7 +6,7 @@ category: "Sedation Dentistry"
 featuredImageAlt: "Patient resting in a dental chair with a nitrous oxide nasal mask"
 excerpt: "Learn what parenteral conscious sedation means in dentistry, how IV delivery differs from nitrous oxide, and what patients should ask before treatment."
 featuredImage: "../images/sedation-patient.jpg"
-date: "2026-10-28"
+date: "2026-10-28T12:00:00Z"
 ---
 
 Parenteral conscious sedation is sedation medication given by a route that bypasses the digestive tract, most commonly through an intravenous (IV) line in dental care. The goal is usually minimal or moderate sedation: you are relaxed and less aware of the procedure while still able to respond appropriately. It is not the same as general anesthesia, and the exact level of sedation depends on the medication, dose, route, and individual response.
