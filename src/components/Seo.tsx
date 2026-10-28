@@ -8,13 +8,22 @@ import { useLocation } from '@reach/router';
 type SeoProps = {
     pathname: string;
     title?: string;
+    preserveDescription?: boolean;
     description?: string;
     children?: ReactNode;
     keywords?: string;
     image?: IGatsbyImageData;
 };
 
-export const Seo = ({ pathname, title, description, children, keywords, image }: SeoProps) => {
+export const Seo = ({
+    pathname,
+    title,
+    description,
+    children,
+    keywords,
+    image,
+    preserveDescription = false,
+}: SeoProps) => {
     const { site, og } = useStaticQuery(graphql`
         query steSeoMetadata {
             site {
@@ -48,7 +57,9 @@ export const Seo = ({ pathname, title, description, children, keywords, image }:
           : site.siteMetadata.title;
 
     const metaDescription = description
-        ? description.charAt(0).toUpperCase() + description.slice(1).toLowerCase()
+        ? preserveDescription
+            ? description
+            : description.charAt(0).toUpperCase() + description.slice(1).toLowerCase()
         : seoData[pageTitle]
           ? seoData[pageTitle].d
           : site.siteMetadata.description;

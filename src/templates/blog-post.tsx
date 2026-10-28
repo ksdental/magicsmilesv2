@@ -228,6 +228,7 @@ type DataProps = {
         html: string;
         frontmatter: {
             title: string;
+            seoTitle?: string;
             slug: string;
             category: string;
             excerpt: string;
@@ -250,7 +251,11 @@ export default function BlogPost({ data }: PageProps<DataProps>) {
         <Fragment>
             <HeroSection>
                 {image && (
-                    <GatsbyImage image={image} alt={frontmatter.featuredImageAlt || frontmatter.title} style={{ gridArea: '1/1' }} />
+                    <GatsbyImage
+                        image={image}
+                        alt={frontmatter.featuredImageAlt || frontmatter.title}
+                        style={{ gridArea: '1/1' }}
+                    />
                 )}
                 <HeroContent>
                     <CategoryBadge>{frontmatter.category}</CategoryBadge>
@@ -281,8 +286,9 @@ export const Head = ({ data }: HeadProps<DataProps>) => {
     return (
         <Seo
             pathname={`blog/${frontmatter.slug}`}
-            title={`${frontmatter.title} | Magic Smile Dental Blog`}
+            title={frontmatter.seoTitle || `${frontmatter.title} | Magic Smile Dental Blog`}
             description={frontmatter.excerpt}
+            preserveDescription={Boolean(frontmatter.seoTitle)}
         />
     );
 };
@@ -293,6 +299,7 @@ export const query = graphql`
             html
             frontmatter {
                 title
+                seoTitle
                 slug
                 category
                 excerpt
@@ -300,11 +307,7 @@ export const query = graphql`
                 featuredImageAlt
                 featuredImage {
                     childImageSharp {
-                        gatsbyImageData(
-                            quality: 90
-                            placeholder: BLURRED
-                            layout: FULL_WIDTH
-                        )
+                        gatsbyImageData(quality: 90, placeholder: BLURRED, layout: FULL_WIDTH)
                     }
                 }
             }
