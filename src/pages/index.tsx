@@ -43,7 +43,7 @@ export default function Home() {
             <Technology />
             <Stories />
             <Treatments />
-            <BottomBannerImplants />
+            <BottomBannerImplants lazyLoad />
         </Fragment>
     );
 }
