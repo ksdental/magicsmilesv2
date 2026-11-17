@@ -1,4 +1,5 @@
 import { CLink } from '@/CLink';
+import { serviceAreas } from '@/service-area/locations';
 import styled from '@emotion/styled';
 import { StaticImage } from 'gatsby-plugin-image';
 import { siteInfo } from './NavLinks';
@@ -77,6 +78,38 @@ const Flex = styled.div`
     }
 `;
 
+const ServiceAreas = styled.nav`
+    padding: 0 25px 60px;
+
+    > h3 {
+        font-size: 1.125rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0 0 20px;
+    }
+
+    > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px 28px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+
+        :hover,
+        :focus-visible {
+            opacity: 0.75;
+        }
+    }
+`;
+
 const Copyright = styled.p`
     ${flexCenter};
     padding: 20px 40px;
@@ -135,7 +168,9 @@ export const Footer = () => {
                     <h3>Phone number</h3>
                     <p>
                         Call Today:{' '}
-                        <CLink to={siteInfo.currentPatientsPhone.link}>{siteInfo.currentPatientsPhone.text}</CLink>
+                        <CLink to={siteInfo.currentPatientsPhone.link}>
+                            {siteInfo.currentPatientsPhone.text}
+                        </CLink>
                     </p>
                 </div>
 
@@ -163,6 +198,16 @@ export const Footer = () => {
                     </p>
                 </div>
             </Flex>
+            <ServiceAreas aria-label="Dental service areas">
+                <h3>Welcoming Patients From</h3>
+                <ul>
+                    {serviceAreas.map(area => (
+                        <li key={area.path}>
+                            <CLink to={area.path}>{area.name}, NJ</CLink>
+                        </li>
+                    ))}
+                </ul>
+            </ServiceAreas>
             <Copyright>
                 <CLink to="https://www.google.com/search?q=Magic+Smile+Dental+Linden%2C+NJ&sca_esv=ba03c581cf027f47&sca_upv=1&ei=JC7oZp-bF-SKwbkPy63A6Qc&ved=0ahUKEwifvcrQxMeIAxVkRTABHcsWMH0Q4dUDCA8&uact=5&oq=Magic+Smile+Dental+Linden%2C+NJ&gs_lp=Egxnd3Mtd2l6LXNlcnAiHU1hZ2ljIFNtaWxlIERlbnRhbCBMaW5kZW4sIE5KMhEQLhiABBiRAhjHARiKBRivATIGEAAYCBgeMgsQABiABBiGAxiKBTIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIgEC4YgAQYkQIYxwEYigUYrwEYlwUY3AQY3gQY4ATYAQFI-ARQ7wNY7wNwAXgBkAEAmAF8oAF8qgEDMC4xuAEDyAEA-AEBmAICoAKLAcICChAAGLADGNYEGEfCAg0QABiwAxjWBBhHGMkDwgIOEAAYgAQYsAMYkgMYigWYAwCIBgGQBgS6BgYIARABGBSSBwMxLjGgB-wG&sclient=gws-wiz-serp#lrd=0x89c3b30231c43b21:0x5ea8101c1f4c4f62,1,,,,">
                     Leave us a review on google

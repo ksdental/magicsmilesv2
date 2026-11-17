@@ -168,6 +168,10 @@ export const navLinks: NavLinksTypes = [
                 text: 'Blog',
                 link: '/blog/',
             },
+            {
+                text: 'Areas Served',
+                link: '/areas-served/',
+            },
         ],
     },
     {
